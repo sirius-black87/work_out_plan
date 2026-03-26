@@ -1,1 +1,1912 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c0{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c3{background-color:#ffffff;max-width:451.4pt;padding:72pt 72pt 72pt 72pt}.c2{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c3 doc-content"><p class="c0"><span class="c1">&lt;!DOCTYPE html&gt;</span></p><p class="c0"><span class="c1">&lt;html lang=&quot;he&quot; dir=&quot;rtl&quot;&gt;</span></p><p class="c0"><span class="c1">&lt;head&gt;</span></p><p class="c0"><span class="c1">&nbsp; &lt;meta charset=&quot;UTF-8&quot; /&gt;</span></p><p class="c0"><span class="c1">&nbsp; &lt;title&gt;&#1488;&#1508;&#1500;&#1497;&#1511;&#1510;&#1497;&#1497;&#1514; &#1488;&#1497;&#1502;&#1493;&#1503; &#1489;&#1497;&#1514;&#1497;&lt;/title&gt;</span></p><p class="c0"><span class="c1">&nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;</span></p><p class="c0"><span class="c1">&nbsp; &lt;style&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; body {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-family: system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #0f172a;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #e5e7eb;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin: 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; direction: rtl;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; text-align: right;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .app-container {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; max-width: 900px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin: 0 auto;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 16px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; h1, h2, h3 {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin: 0 0 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; h1 {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; text-align: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-bottom: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .tabs {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-bottom: 16px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; flex-wrap: wrap;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .tab-btn {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; flex: 1;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; min-width: 80px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 8px 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border: none;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; cursor: pointer;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #1f2937;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #e5e7eb;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 14px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .tab-btn.active {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #22c55e;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #020617;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-weight: 600;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .card {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #020617;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 16px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 16px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; box-shadow: 0 8px 24px rgba(0,0,0,0.65);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-bottom: 16px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border: 1px solid #1f2937;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .sub-card {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #020617;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border: 1px solid #1f2937;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .pill-row {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; flex-wrap: wrap;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 6px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin: 6px 0 10px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .pill {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 4px 10px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #111827;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .pill.green { background: #16a34a33; color: #4ade80; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .pill.blue &nbsp;{ background: #1d4ed833; color: #60a5fa; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .pill.orange{ background: #ea580c33; color: #fdba74; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .pill.gray &nbsp;{ background: #4b556333; color: #9ca3af; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .flex {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .flex-col {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; flex-direction: column;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .flex-wrap { flex-wrap: wrap; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .two-cols {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: grid;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; @media (max-width: 720px) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; .two-cols {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; grid-template-columns: minmax(0, 1fr);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .exercise-name {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 18px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-weight: 700;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #f9fafb;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .exercise-sub {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 13px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #9ca3af;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .exercise-desc {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 14px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #d1d5db;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 4px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; line-height: 1.5;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .badge {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: inline-flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; align-items: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 4px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 4px 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #111827;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #e5e7eb;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .badge span.icon {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 13px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .btn-row {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; flex-wrap: wrap;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .btn {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border: none;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 8px 14px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 14px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; cursor: pointer;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: inline-flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; align-items: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 6px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #1f2937;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #e5e7eb;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .btn.primary {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: linear-gradient(135deg, #22c55e, #16a34a);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #020617;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-weight: 600;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .btn.outline {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: transparent;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border: 1px solid #374151;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .btn:disabled {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; opacity: 0.4;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; cursor: not-allowed;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .timer-display {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 32px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-weight: 700;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin: 4px 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-variant-numeric: tabular-nums;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .timer-label {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 13px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #9ca3af;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .progress-line {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; width: 100%;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; height: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #0b1120;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; overflow: hidden;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 4px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .progress-fill {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; height: 100%;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: linear-gradient(90deg, #22c55e, #4ade80);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; width: 0%;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; transition: width 0.2s ease-out;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .label {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 13px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #9ca3af;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-bottom: 2px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; table {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; width: 100%;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-collapse: collapse;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 13px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 6px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; th, td {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-bottom: 1px solid #111827;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 6px 4px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; th {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #020617;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #9ca3af;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-weight: 600;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; text-align: right;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; tr:nth-child(even) td {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #020617;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .tag {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: inline-block;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 2px 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #111827;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 11px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #9ca3af;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-left: 4px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .small {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #9ca3af;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .macro-row {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; gap: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; flex-wrap: wrap;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 4px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .macro-pill {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; border-radius: 999px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; padding: 4px 10px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 12px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; background: #111827;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #e5e7eb;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .highlight {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #4ade80;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-weight: 600;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .footer-note {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; font-size: 11px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; color: #6b7280;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; margin-top: 8px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; line-height: 1.5;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &lt;/style&gt;</span></p><p class="c0"><span class="c1">&lt;/head&gt;</span></p><p class="c0"><span class="c1">&lt;body&gt;</span></p><p class="c0"><span class="c1">&nbsp; &lt;div class=&quot;app-container&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;h1&gt;&#1502;&#1488;&#1502;&#1503; &#1492;&#1489;&#1497;&#1514; &#1513;&#1500; &#1492;&#1488;&#1512;&#1497; &#128170;&lt;/h1&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;!-- Tabs --&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;div class=&quot;tabs&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;button class=&quot;tab-btn active&quot; data-tab=&quot;workout&quot;&gt;&#1488;&#1497;&#1502;&#1493;&#1503;&lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;button class=&quot;tab-btn&quot; data-tab=&quot;nutrition&quot;&gt;&#1514;&#1494;&#1493;&#1504;&#1492;&lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;button class=&quot;tab-btn&quot; data-tab=&quot;about&quot;&gt;&#1488;&#1497;&#1498; &#1502;&#1513;&#1514;&#1502;&#1513;&#1497;&#1501;?&lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;!-- WORKOUT TAB --&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;div id=&quot;tab-workout&quot; class=&quot;tab-content&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;div class=&quot;card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;h2&gt;&#1489;&#1495;&#1497;&#1512;&#1514; &#1497;&#1493;&#1501; &#1488;&#1497;&#1502;&#1493;&#1503;&lt;/h2&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;pill-row&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;pill green&quot;&gt;&#1502;&#1496;&#1512;&#1492;: &#1495;&#1497;&#1496;&#1493;&#1489; + &#1489;&#1504;&#1497;&#1497;&#1514; &#1513;&#1512;&#1497;&#1512;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;pill blue&quot;&gt;3 &#1488;&#1497;&#1502;&#1493;&#1504;&#1497;&#1501; &#1489;&#1513;&#1489;&#1493;&#1506;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;pill orange&quot;&gt;60 &#1491;&#1511;&#1493;&#1514; &#1500;&#1499;&#1500; &#1488;&#1497;&#1502;&#1493;&#1503;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;flex-wrap flex&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;btn primary&quot; onclick=&quot;startWorkout(&#39;A&#39;)&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1497;&#1493;&#1501; A &ndash; &#1495;&#1494;&#1492;, &#1499;&#1514;&#1508;&#1497;&#1497;&#1501;, &#1496;&#1512;&#1497;&#1510;&#1508;&#1505;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;btn primary&quot; onclick=&quot;startWorkout(&#39;B&#39;)&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1497;&#1493;&#1501; B &ndash; &#1490;&#1489;, &#1489;&#1497;&#1510;&#1508;&#1505;, &#1489;&#1496;&#1503;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;btn primary&quot; onclick=&quot;startWorkout(&#39;C&#39;)&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1497;&#1493;&#1501; C &ndash; &#1499;&#1500; &#1492;&#1490;&#1493;&#1507; + &#1489;&#1496;&#1503;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class=&quot;small&quot; style=&quot;margin-top:8px;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1492;&#1502;&#1500;&#1510;&#1492; &#1513;&#1489;&#1493;&#1506;&#1497;&#1514;: &#1512;&#1488;&#1513;&#1493;&#1503; &ndash; &#1497;&#1493;&#1501; A, &#1513;&#1500;&#1497;&#1513;&#1497; &ndash; &#1497;&#1493;&#1501; B, &#1495;&#1502;&#1497;&#1513;&#1497; &ndash; &#1497;&#1493;&#1501; C.</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;two-cols&quot; style=&quot;margin-top:12px;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Exercise panel --&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot; id=&quot;exercise-panel&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1514;&#1512;&#1490;&#1497;&#1500; &#1504;&#1493;&#1499;&#1495;&#1497;&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div id=&quot;no-workout-message&quot; class=&quot;small&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1489;&#1495;&#1512; &#1500;&#1502;&#1506;&#1500;&#1492; &#1497;&#1493;&#1501; &#1488;&#1497;&#1502;&#1493;&#1503; &#1499;&#1491;&#1497; &#1500;&#1492;&#1514;&#1495;&#1497;&#1500;.</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div id=&quot;exercise-active&quot; style=&quot;display:none;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;exercise-name&quot; id=&quot;exercise-name&quot;&gt;&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;exercise-sub&quot; id=&quot;exercise-meta&quot;&gt;&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;exercise-desc&quot; id=&quot;exercise-desc&quot;&gt;&lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;pill-row&quot; style=&quot;margin-top:8px;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;badge&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;icon&quot;&gt;&#127947;&#65039;&zwj;&#9794;&#65039;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span id=&quot;badge-sets&quot;&gt;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;badge&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;icon&quot;&gt;&#128257;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span id=&quot;badge-reps&quot;&gt;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;badge&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;icon&quot;&gt;&#9201;&#65039;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span id=&quot;badge-rest&quot;&gt;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div style=&quot;margin-top:8px;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;label&quot;&gt;&#1492;&#1514;&#1511;&#1491;&#1502;&#1493;&#1514; &#1489;&#1488;&#1497;&#1502;&#1493;&#1503;&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;progress-line&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div id=&quot;progress-bar&quot; class=&quot;progress-fill&quot;&gt;&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;small&quot; id=&quot;progress-text&quot; style=&quot;margin-top:4px;&quot;&gt;&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;btn-row&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;btn primary&quot; id=&quot;btn-start-set&quot; onclick=&quot;startSet()&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9654;&#65039; &#1492;&#1514;&#1495;&#1500; &#1505;&#1496;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;btn&quot; id=&quot;btn-finish-set&quot; onclick=&quot;finishSet()&quot; disabled&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9989; &#1505;&#1497;&#1497;&#1502;&#1514;&#1497; &#1505;&#1496;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;btn outline&quot; id=&quot;btn-skip-exercise&quot; onclick=&quot;skipExercise()&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9197;&#65039; &#1491;&#1500;&#1490; &#1514;&#1512;&#1490;&#1497;&#1500;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;btn outline&quot; id=&quot;btn-reset-workout&quot; onclick=&quot;resetWorkout()&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#128260; &#1488;&#1497;&#1508;&#1493;&#1505; &#1488;&#1497;&#1502;&#1493;&#1503;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot; style=&quot;margin-top:10px; background:#020617;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;label&quot;&gt;&#1502;&#1510;&#1489; &#1492;&#1496;&#1497;&#1497;&#1502;&#1512;&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;timer-display&quot; id=&quot;timer-display&quot;&gt;00:00&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;timer-label&quot; id=&quot;timer-label&quot;&gt;&#1502;&#1493;&#1499;&#1503; &#1500;&#1505;&#1496; &#1492;&#1489;&#1488;&lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Day plan / list --&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 id=&quot;plan-title&quot;&gt;&#1514;&#1493;&#1499;&#1504;&#1497;&#1514; &#1492;&#1497;&#1493;&#1501;&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;small&quot; id=&quot;plan-subtitle&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1489;&#1495;&#1512; &#1497;&#1493;&#1501; &#1488;&#1497;&#1502;&#1493;&#1503; &#1499;&#1491;&#1497; &#1500;&#1512;&#1488;&#1493;&#1514; &#1488;&#1514; &#1512;&#1513;&#1497;&#1502;&#1514; &#1492;&#1514;&#1512;&#1490;&#1497;&#1500;&#1497;&#1501; &#1492;&#1502;&#1500;&#1488;&#1492;.</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;table id=&quot;plan-table&quot; style=&quot;display:none;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;thead&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th&gt;&#1514;&#1512;&#1490;&#1497;&#1500;&lt;/th&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th&gt;&#1505;&#1496;&#1497;&#1501;&lt;/th&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th&gt;&#1495;&#1494;&#1512;&#1493;&#1514;&lt;/th&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th&gt;&#1502;&#1504;&#1493;&#1495;&#1492;&lt;/th&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/thead&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tbody id=&quot;plan-body&quot;&gt;&lt;/tbody&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/table&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;!-- NUTRITION TAB --&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;div id=&quot;tab-nutrition&quot; class=&quot;tab-content&quot; style=&quot;display:none;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;div class=&quot;card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;h2&gt;&#1514;&#1494;&#1493;&#1504;&#1492; &#1500;&#1495;&#1497;&#1496;&#1493;&#1489; + &#1489;&#1504;&#1497;&#1497;&#1514; &#1513;&#1512;&#1497;&#1512;&lt;/h2&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;pill-row&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;pill green&quot;&gt;&#1488;&#1493;&#1499;&#1500; &#1492;&#1499;&#1500;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;pill blue&quot;&gt;&#1502;&#1506;&#1491;&#1497;&#1507; &#1495;&#1500;&#1489;&#1497;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;pill orange&quot;&gt;3&ndash;4 &#1488;&#1512;&#1493;&#1495;&#1493;&#1514; &#1489;&#1497;&#1493;&#1501;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;pill gray&quot;&gt;&#1514;&#1511;&#1510;&#1497;&#1489; &#1489;&#1497;&#1504;&#1493;&#1504;&#1497;&lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1497;&#1506;&#1491;&#1497;&#1501; &#1497;&#1493;&#1502;&#1497;&#1497;&#1501; (&#1502;&#1513;&#1511;&#1500; 65 &#1511;&#1524;&#1490;)&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;macro-row&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;macro-pill&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1495;&#1500;&#1489;&#1493;&#1503;: &lt;span class=&quot;highlight&quot;&gt;100&ndash;120 &#1490;&#1512;&#1501;&lt;/span&gt; &#1500;&#1497;&#1493;&#1501;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;macro-pill&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1511;&#1500;&#1493;&#1512;&#1497;&#1493;&#1514;: &lt;span class=&quot;highlight&quot;&gt;&asymp; 2,000&ndash;2,200&lt;/span&gt; &#1500;&#1497;&#1493;&#1501; (&#1495;&#1497;&#1496;&#1493;&#1489; &#1511;&#1500;)</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class=&quot;macro-pill&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1488;&#1497;&#1502;&#1493;&#1503; &#1489;&#1506;&#1512;&#1489; &ndash; &#1508;&#1495;&#1502;&#1497;&#1502;&#1492; &#1493;&#1495;&#1500;&#1489;&#1493;&#1503; &#1500;&#1508;&#1504;&#1497; &#1493;&#1488;&#1495;&#1512;&#1497;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/span&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class=&quot;footer-note&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1496;&#1493;&#1493;&#1495; &#1492;&#1495;&#1500;&#1489;&#1493;&#1503; &#1502;&#1489;&#1493;&#1505;&#1505; &#1506;&#1500; &#1492;&#1502;&#1500;&#1510;&#1493;&#1514; &#1502;&#1511;&#1510;&#1493;&#1506;&#1497;&#1493;&#1514; &#1500;&#1502;&#1514;&#1488;&#1502;&#1504;&#1497; &#1499;&#1493;&#1495; (&#1489;&#1506;&#1512;&#1498; 1.6&ndash;2.0 &#1490;&#1512;&#1501; &#1495;&#1500;&#1489;&#1493;&#1503; &#1500;&#1499;&#1500; &#1511;&#1524;&#1490; &#1502;&#1513;&#1511;&#1500; &#1490;&#1493;&#1507; &#1500;&#1497;&#1493;&#1501;, &#1489;&#1502;&#1496;&#1512;&#1492; &#1500;&#1489;&#1504;&#1493;&#1514; &#1493;&#1500;&#1513;&#1502;&#1512; &#1502;&#1505;&#1514; &#1513;&#1512;&#1497;&#1512; &#1514;&#1493;&#1498; &#1495;&#1497;&#1496;&#1493;&#1489;). [web:63][web:73]</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1502;&#1489;&#1504;&#1492; &#1497;&#1493;&#1502;&#1497; &#1502;&#1493;&#1502;&#1500;&#1509; (3&ndash;4 &#1488;&#1512;&#1493;&#1495;&#1493;&#1514;)&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;small&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;span class=&quot;highlight&quot;&gt;&#1488;&#1512;&#1493;&#1495;&#1514; &#1489;&#1493;&#1511;&#1512;&lt;/span&gt; &ndash; &#1495;&#1500;&#1489;&#1493;&#1503; + &#1508;&#1495;&#1502;&#1497;&#1502;&#1492; &#1502;&#1493;&#1512;&#1499;&#1489;&#1514;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;span class=&quot;highlight&quot;&gt;&#1488;&#1512;&#1493;&#1495;&#1514; &#1510;&#1492;&#1512;&#1497;&#1497;&#1501;&lt;/span&gt; &ndash; &#1506;&#1497;&#1511;&#1512;&#1497;&#1514;, &#1513;&#1493;&#1489;&#1506; &#1496;&#1493;&#1489; &#1506;&#1491; &#1492;&#1488;&#1497;&#1502;&#1493;&#1503;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;span class=&quot;highlight&quot;&gt;&#1488;&#1512;&#1493;&#1495;&#1514; &#1489;&#1497;&#1504;&#1497;&#1497;&#1501; &#1500;&#1508;&#1504;&#1497; &#1488;&#1497;&#1502;&#1493;&#1503;&lt;/span&gt; &ndash; &#1511;&#1500;&#1492;, &#1488;&#1504;&#1512;&#1490;&#1497;&#1492; + &#1511;&#1510;&#1514; &#1495;&#1500;&#1489;&#1493;&#1503;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;span class=&quot;highlight&quot;&gt;&#1488;&#1512;&#1493;&#1495;&#1514; &#1506;&#1512;&#1489; &#1488;&#1495;&#1512;&#1497; &#1488;&#1497;&#1502;&#1493;&#1503;&lt;/span&gt; &ndash; &#1495;&#1500;&#1489;&#1493;&#1503; &#1490;&#1489;&#1493;&#1492; + &#1508;&#1495;&#1502;&#1497;&#1502;&#1492;, &#1502;&#1506;&#1496; &#1513;&#1493;&#1502;&#1503;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1491;&#1493;&#1490;&#1502;&#1492; &#1500;&#1497;&#1493;&#1501; &#1514;&#1494;&#1493;&#1504;&#1492; (&#1495;&#1500;&#1489;&#1497;&#1470;&#1502;&#1493;&#1506;&#1491;&#1507;)&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;table&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;thead&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th&gt;&#1488;&#1512;&#1493;&#1495;&#1492;&lt;/th&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th&gt;&#1502;&#1492; &#1488;&#1493;&#1499;&#1500;&#1497;&#1501;&lt;/th&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th&gt;&#1492;&#1506;&#1512;&#1499;&#1492; &#1500;&#1495;&#1500;&#1489;&#1493;&#1503;&lt;/th&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/thead&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tbody&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&#1489;&#1493;&#1511;&#1512;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1497;&#1493;&#1490;&#1493;&#1512;&#1496; &#1497;&#1493;&#1504;&#1497;/&#1505;&#1511;&#1497;&#1512; 200 &#1490;&#1512;&#1501; + &#1490;&#1512;&#1504;&#1493;&#1500;&#1492;/&#1513;&#1497;&#1489;&#1493;&#1500;&#1514; &#1513;&#1493;&#1506;&#1500; + &#1508;&#1512;&#1497; (&#1489;&#1504;&#1504;&#1492;/&#1514;&#1508;&#1493;&#1495;)</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&asymp; 20&ndash;25 &#1490;&#1512;&#1501;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&#1510;&#1492;&#1512;&#1497;&#1497;&#1501;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1508;&#1505;&#1496;&#1492;/&#1488;&#1493;&#1512;&#1494;/&#1508;&#1514;&#1497;&#1514;&#1497;&#1501; + &#1490;&#1489;&#1497;&#1504;&#1514; &#1511;&#1493;&#1496;&#1490;&#1523; 5% / &#1496;&#1493;&#1508;&#1493; + &#1505;&#1500;&#1496; &#1490;&#1491;&#1493;&#1500; &#1506;&#1501; &#1513;&#1502;&#1503; &#1494;&#1497;&#1514;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&asymp; 25&ndash;30 &#1490;&#1512;&#1501;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&#1500;&#1508;&#1504;&#1497; &#1488;&#1497;&#1502;&#1493;&#1503; (&#1511;&#1500;)&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1508;&#1512;&#1493;&#1505;&#1514; &#1500;&#1495;&#1501; &#1502;&#1500;&#1488; &#1506;&#1501; &#1490;&#1489;&#1497;&#1504;&#1492; &#1500;&#1489;&#1504;&#1492; 5% &#1488;&#1493; &#1496;&#1493;&#1505;&#1496; &#1490;&#1489;&#1497;&#1504;&#1492; &#1510;&#1492;&#1493;&#1489;&#1492; 9% + &#1508;&#1512;&#1497;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&asymp; 10&ndash;15 &#1490;&#1512;&#1501;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&#1488;&#1495;&#1512;&#1497; &#1488;&#1497;&#1502;&#1493;&#1503;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1513;&#1497;&#1497;&#1511; &#1495;&#1500;&#1489;&#1493;&#1503; (&#1505;&#1511;&#1493;&#1508; &#1488;&#1489;&#1511;&#1514; &#1495;&#1500;&#1489;&#1493;&#1503; &#1489;&#1495;&#1500;&#1489;/&#1502;&#1497;&#1501;) + &#1508;&#1512;&#1493;&#1505;&#1514; &#1500;&#1495;&#1501; &#1502;&#1500;&#1488; &#1506;&#1501; &#1495;&#1493;&#1502;&#1493;&#1505;/&#1488;&#1489;&#1493;&#1511;&#1491;&#1493;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&asymp; 25&ndash;30 &#1490;&#1512;&#1501;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&#1504;&#1513;&#1504;&#1493;&#1513; &#1488;&#1508;&#1513;&#1512;&#1497;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1495;&#1496;&#1497;&#1507; &#1495;&#1500;&#1489;&#1493;&#1503; / &#1497;&#1493;&#1490;&#1493;&#1512;&#1496; &#1495;&#1500;&#1489;&#1493;&#1503; / &#1495;&#1493;&#1508;&#1503; &#1488;&#1490;&#1493;&#1494;&#1497;&#1501; + &#1508;&#1512;&#1497;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;&asymp; 10&ndash;15 &#1490;&#1512;&#1501;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/tbody&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/table&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class=&quot;footer-note&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1494;&#1492;&#1493; &#1512;&#1511; &#1502;&#1493;&#1491;&#1500; &#1497;&#1493;&#1502;&#1497; &ndash; &#1488;&#1508;&#1513;&#1512; &#1500;&#1490;&#1493;&#1493;&#1503; &#1506;&#1501; &#1489;&#1497;&#1510;&#1497;&#1501;, &#1496;&#1493;&#1504;&#1492; &#1489;&#1502;&#1497;&#1501;, &#1506;&#1491;&#1513;&#1497;&#1501;/&#1495;&#1493;&#1502;&#1493;&#1505;, &#1490;&#1489;&#1497;&#1504;&#1493;&#1514; &#1513;&#1493;&#1504;&#1493;&#1514;, &#1508;&#1505;&#1496;&#1493;&#1514;/&#1488;&#1493;&#1512;&#1494; &#1502;&#1500;&#1488;, &#1511;&#1493;&#1505;&#1511;&#1493;&#1505;, &#1511;&#1497;&#1504;&#1493;&#1488;&#1492; &#1493;&#1506;&#1493;&#1491;, &#1489;&#1492;&#1514;&#1488;&#1501; &#1500;&#1502;&#1492; &#1513;&#1496;&#1506;&#1497;&#1501; &#1493;&#1494;&#1502;&#1497;&#1503; &#1500;&#1498;. [web:71][web:77]</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1506;&#1511;&#1512;&#1493;&#1504;&#1493;&#1514; &#1513;&#1495;&#1513;&#1493;&#1489; &#1500;&#1494;&#1499;&#1493;&#1512;&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;small&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1500;&#1504;&#1505;&#1493;&#1514; &#1500;&#1508;&#1494;&#1512; &#1495;&#1500;&#1489;&#1493;&#1503; &#1500;&#1488;&#1493;&#1512;&#1498; &#1492;&#1497;&#1493;&#1501; (3&ndash;4 &ldquo;&#1502;&#1504;&#1493;&#1514; &#1495;&#1500;&#1489;&#1493;&#1503;&rdquo; &#1496;&#1493;&#1489;&#1493;&#1514; &#1489;&#1499;&#1500; &#1497;&#1493;&#1501;).&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1500;&#1492;&#1490;&#1497;&#1506; &#1511;&#1512;&#1493;&#1489; &#1500;&#1497;&#1506;&#1491; &#1492;&#1495;&#1500;&#1489;&#1493;&#1503; &#1495;&#1513;&#1493;&#1489; &#1497;&#1493;&#1514;&#1512; &#1502;&#1505;&#1508;&#1497;&#1512;&#1514; &#1511;&#1500;&#1493;&#1512;&#1497;&#1493;&#1514; &#1502;&#1493;&#1513;&#1500;&#1502;&#1514;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1500;&#1508;&#1504;&#1497; &#1488;&#1497;&#1502;&#1493;&#1503; &ndash; &#1500;&#1488; &#1500;&#1488;&#1499;&#1493;&#1500; &#1499;&#1489;&#1491; &#1502;&#1491;&#1497; &#1499;&#1491;&#1497; &#1513;&#1500;&#1488; &#1514;&#1512;&#1490;&#1497;&#1513; &#1504;&#1508;&#1493;&#1495;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1488;&#1495;&#1512;&#1497; &#1488;&#1497;&#1502;&#1493;&#1503; &ndash; &#1506;&#1491;&#1497;&#1507; &#1495;&#1500;&#1489;&#1493;&#1503; + &#1508;&#1495;&#1502;&#1497;&#1502;&#1492; &#1489;&#1514;&#1493;&#1498; 1&ndash;2 &#1513;&#1506;&#1493;&#1514;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1502;&#1497;&#1501;: &#1500;&#1513;&#1514;&#1493;&#1514; &#1500;&#1488;&#1493;&#1512;&#1498; &#1492;&#1497;&#1493;&#1501; &ndash; &#1489;&#1502;&#1497;&#1493;&#1495;&#1491; &#1505;&#1489;&#1497;&#1489; &#1492;&#1488;&#1497;&#1502;&#1493;&#1503; (&#1500;&#1508;&#1495;&#1493;&#1514; 6&ndash;8 &#1499;&#1493;&#1505;&#1493;&#1514;). [web:54][web:60]&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;!-- ABOUT TAB --&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;div id=&quot;tab-about&quot; class=&quot;tab-content&quot; style=&quot;display:none;&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;div class=&quot;card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;h2&gt;&#1488;&#1497;&#1498; &#1500;&#1492;&#1513;&#1514;&#1502;&#1513; &#1489;&#1488;&#1508;&#1500;&#1497;&#1511;&#1510;&#1497;&#1492;&lt;/h2&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1492;&#1508;&#1506;&#1500;&#1514; &#1492;&#1488;&#1497;&#1502;&#1493;&#1503;&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ol class=&quot;small&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1489;&#1495;&#1512; &#1500;&#1502;&#1506;&#1500;&#1492; &#1489;&#1500;&#1513;&#1493;&#1504;&#1497;&#1514; &lt;strong&gt;&#1488;&#1497;&#1502;&#1493;&#1503;&lt;/strong&gt;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1489;&#1495;&#1512; &#1497;&#1493;&#1501; &#1488;&#1497;&#1502;&#1493;&#1503;: A / B / C &#1500;&#1508;&#1497; &#1492;&#1497;&#1493;&#1501; &#1489;&#1513;&#1489;&#1493;&#1506;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1497;&#1493;&#1508;&#1497;&#1506; &#1492;&#1514;&#1512;&#1490;&#1497;&#1500; &#1492;&#1512;&#1488;&#1513;&#1493;&#1503;, &#1502;&#1505;&#1508;&#1512; &#1492;&#1505;&#1496;&#1497;&#1501;, &#1492;&#1495;&#1494;&#1512;&#1493;&#1514; &#1493;&#1492;&#1502;&#1504;&#1493;&#1495;&#1492; &#1492;&#1502;&#1493;&#1502;&#1500;&#1510;&#1514;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1500;&#1495;&#1509; &#1506;&#1500; &lt;strong&gt;&ldquo;&#1492;&#1514;&#1495;&#1500; &#1505;&#1496;&rdquo;&lt;/strong&gt; &ndash; &#1489;&#1510;&#1506; &#1488;&#1514; &#1492;&#1505;&#1496; &#1489;&#1511;&#1510;&#1489; &#1513;&#1500;&#1498;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1489;&#1505;&#1497;&#1493;&#1501; &#1492;&#1505;&#1496; &#1500;&#1495;&#1509; &lt;strong&gt;&ldquo;&#1505;&#1497;&#1497;&#1502;&#1514;&#1497; &#1505;&#1496;&rdquo;&lt;/strong&gt; &ndash; &#1497;&#1514;&#1495;&#1497;&#1500; &#1496;&#1497;&#1497;&#1502;&#1512; &#1502;&#1504;&#1493;&#1495;&#1492;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1489;&#1505;&#1497;&#1493;&#1501; &#1492;&#1502;&#1504;&#1493;&#1495;&#1492; &#1492;&#1496;&#1497;&#1497;&#1502;&#1512; &#1504;&#1506;&#1510;&#1512; &ndash; &#1506;&#1489;&#1493;&#1512; &#1500;&#1505;&#1496; &#1492;&#1489;&#1488; &#1506;&#1500; &#1488;&#1493;&#1514;&#1493; &#1514;&#1512;&#1490;&#1497;&#1500;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1500;&#1488;&#1495;&#1512; &#1513;&#1505;&#1497;&#1497;&#1502;&#1514; &#1488;&#1514; &#1499;&#1500; &#1492;&#1505;&#1496;&#1497;&#1501; &ndash; &#1492;&#1488;&#1508;&#1500;&#1497;&#1511;&#1510;&#1497;&#1492; &#1514;&#1506;&#1489;&#1493;&#1512; &#1488;&#1493;&#1496;&#1493;&#1502;&#1496;&#1497;&#1514; &#1500;&#1514;&#1512;&#1490;&#1497;&#1500; &#1492;&#1489;&#1488;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ol&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1488;&#1497;&#1508;&#1493;&#1505; &#1493;&#1492;&#1514;&#1511;&#1491;&#1502;&#1493;&#1514;&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;small&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1499;&#1508;&#1514;&#1493;&#1512; &lt;strong&gt;&ldquo;&#1491;&#1500;&#1490; &#1514;&#1512;&#1490;&#1497;&#1500;&rdquo;&lt;/strong&gt; &ndash; &#1497;&#1491;&#1500;&#1490; &#1502;&#1497;&#1491; &#1500;&#1514;&#1512;&#1490;&#1497;&#1500; &#1492;&#1489;&#1488; &#1488;&#1501; &#1502;&#1513;&#1492;&#1493; &#1500;&#1488; &#1504;&#1493;&#1495;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1499;&#1508;&#1514;&#1493;&#1512; &lt;strong&gt;&ldquo;&#1488;&#1497;&#1508;&#1493;&#1505; &#1488;&#1497;&#1502;&#1493;&#1503;&rdquo;&lt;/strong&gt; &ndash; &#1497;&#1495;&#1494;&#1497;&#1512; &#1488;&#1493;&#1514;&#1498; &#1500;&#1492;&#1514;&#1495;&#1500;&#1492; &#1500;&#1489;&#1495;&#1497;&#1512;&#1514; &#1497;&#1493;&#1501; &#1488;&#1497;&#1502;&#1493;&#1503;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1513;&#1493;&#1512;&#1514; &#1492;&#1492;&#1514;&#1511;&#1491;&#1502;&#1493;&#1514; &#1502;&#1512;&#1488;&#1492; &#1499;&#1502;&#1492; &#1488;&#1495;&#1493;&#1494;&#1497;&#1501; &#1502;&#1492;&#1488;&#1497;&#1502;&#1493;&#1503; &#1499;&#1489;&#1512; &#1505;&#1497;&#1497;&#1502;&#1514;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sub-card&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&#1488;&#1497;&#1498; &#1500;&#1513;&#1502;&#1493;&#1512; &#1493;&#1500;&#1492;&#1512;&#1497;&#1509;&lt;/h3&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ol class=&quot;small&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1508;&#1514;&#1495; Notepad / VS Code &#1489;&#1502;&#1495;&#1513;&#1489;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1492;&#1506;&#1514;&#1511; &#1488;&#1514; &#1499;&#1500; &#1492;&#1514;&#1493;&#1499;&#1503; &#1513;&#1500; &#1492;&#1491;&#1507; &#1513;&#1511;&#1497;&#1489;&#1500;&#1514; (&#1502;&#1470;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt; &#1506;&#1491; &#1492;&#1505;&#1493;&#1507;).&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1513;&#1502;&#1493;&#1512; &#1489;&#1513;&#1501; &lt;code&gt;index.html&lt;/code&gt; (&#1505;&#1493;&#1490; &#1511;&#1493;&#1489;&#1509;: All Files &#1488;&#1501; &#1510;&#1512;&#1497;&#1498;).&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1500;&#1495;&#1509; &#1508;&#1506;&#1502;&#1497;&#1497;&#1501; &#1506;&#1500; &#1492;&#1511;&#1493;&#1489;&#1509; &ndash; &#1492;&#1493;&#1488; &#1497;&#1497;&#1508;&#1514;&#1495; &#1489;&#1491;&#1508;&#1491;&#1508;&#1503; &#1489;&#1514;&#1493;&#1512; &#1488;&#1508;&#1500;&#1497;&#1511;&#1510;&#1497;&#1492;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&#1488;&#1508;&#1513;&#1512; &#1500;&#1492;&#1506;&#1489;&#1497;&#1512; &#1488;&#1514; &#1492;&#1511;&#1493;&#1489;&#1509; &#1500;&#1496;&#1500;&#1508;&#1493;&#1503; &#1493;&#1500;&#1492;&#1512;&#1497;&#1509; &#1491;&#1512;&#1498; &#1491;&#1508;&#1491;&#1508;&#1503; &#1504;&#1497;&#1497;&#1491;.&lt;/li&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ol&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class=&quot;footer-note&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#1488;&#1501; &#1514;&#1512;&#1510;&#1492; &#1489;&#1506;&#1514;&#1497;&#1491; &ndash; &#1488;&#1508;&#1513;&#1512; &#1500;&#1492;&#1506;&#1500;&#1493;&#1514; &#1488;&#1514; &#1492;&#1511;&#1493;&#1489;&#1509; &#1500;-Netlify / GitHub Pages &#1493;&#1500;&#1511;&#1489;&#1500; &#1499;&#1514;&#1493;&#1489;&#1514; &#1488;&#1493;&#1504;&#1500;&#1497;&#1497;&#1503;.</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0"><span class="c1">&nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &lt;script&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; // ------- &#1504;&#1514;&#1493;&#1504;&#1497; &#1492;&#1488;&#1497;&#1502;&#1493;&#1504;&#1497;&#1501; &#1500;&#1508;&#1497; &#1497;&#1493;&#1501; ------- //</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const workouts = {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; A: {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1497;&#1493;&#1501; A &ndash; &#1495;&#1494;&#1492;, &#1499;&#1514;&#1508;&#1497;&#1497;&#1501;, &#1496;&#1512;&#1497;&#1510;&#1508;&#1505;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; focus: &quot;&#1495;&#1494;&#1492;, &#1499;&#1514;&#1508;&#1497;&#1497;&#1501;, &#1496;&#1512;&#1497;&#1510;&#1508;&#1505;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; exercises: [</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1500;&#1495;&#1497;&#1510;&#1514; &#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1513;&#1496;&#1493;&#1495;&#1492; (&#1506;&#1500; &#1502;&#1494;&#1512;&#1503;)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 4,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;10&ndash;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 90,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1499;&#1489; &#1506;&#1500; &#1492;&#1502;&#1494;&#1512;&#1503;, &#1499;&#1508;&#1493;&#1514; &#1512;&#1490;&#1500;&#1497;&#1497;&#1501; &#1506;&#1500; &#1492;&#1512;&#1510;&#1508;&#1492;, &#1491;&#1495;&#1493;&#1507; &#1488;&#1514; &#1492;&#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1499;&#1500;&#1508;&#1497; &#1502;&#1506;&#1500;&#1492; &#1502;&#1506;&#1500; &#1492;&#1495;&#1494;&#1492; &#1493;&#1492;&#1493;&#1512;&#1491; &#1489;&#1510;&#1493;&#1512;&#1492; &#1502;&#1489;&#1493;&#1511;&#1512;&#1514;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1508;&#1512;&#1508;&#1512; &#1506;&#1501; &#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; (Flyes)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&ndash;15&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 75,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1499;&#1489; &#1506;&#1500; &#1492;&#1502;&#1494;&#1512;&#1503;, &#1508;&#1514;&#1495; &#1497;&#1491;&#1497;&#1497;&#1501; &#1500;&#1510;&#1491;&#1491;&#1497;&#1501; &#1506;&#1501; &#1502;&#1512;&#1508;&#1511;&#1497;&#1501; &#1502;&#1506;&#1496; &#1499;&#1508;&#1493;&#1508;&#1497;&#1501; &#1493;&#1492;&#1495;&#1494;&#1512; &#1489;&#1497;&#1495;&#1491; &#1502;&#1506;&#1500; &#1492;&#1495;&#1494;&#1492;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1513;&#1499;&#1497;&#1489;&#1493;&#1514; &#1513;&#1502;&#1497;&#1499;&#1492; &#1512;&#1495;&#1489;&#1493;&#1514;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;&#1506;&#1491; 15&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1497;&#1491;&#1497;&#1497;&#1501; &#1512;&#1495;&#1489;&#1493;&#1514; &#1502;&#1492;&#1499;&#1514;&#1508;&#1497;&#1497;&#1501;, &#1492;&#1490;&#1493;&#1507; &#1489;&#1511;&#1493; &#1497;&#1513;&#1512;, &#1497;&#1512;&#1497;&#1491;&#1492; &#1488;&#1497;&#1496;&#1497;&#1514; &#1493;&#1491;&#1495;&#1497;&#1508;&#1492; &#1500;&#1502;&#1506;&#1500;&#1492;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1500;&#1495;&#1497;&#1510;&#1514; &#1499;&#1514;&#1508;&#1497;&#1497;&#1501; &#1489;&#1497;&#1513;&#1497;&#1489;&#1492;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 4,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;10&ndash;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 90,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1489; &#1494;&#1511;&#1493;&#1507; &#1506;&#1500; &#1492;&#1499;&#1505;&#1488;, &#1492;&#1495;&#1494;&#1511; &#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1489;&#1490;&#1493;&#1489;&#1492; &#1499;&#1514;&#1508;&#1497;&#1497;&#1501; &#1493;&#1491;&#1495;&#1493;&#1507; &#1502;&#1506;&#1500; &#1492;&#1512;&#1488;&#1513;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1492;&#1512;&#1502;&#1493;&#1514; &#1500;&#1510;&#1491;&#1491;&#1497;&#1501; (&#1499;&#1514;&#1508;&#1497;&#1497;&#1501; &#1510;&#1491;&#1497;&#1493;&#1514;)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&ndash;15&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1506;&#1502;&#1493;&#1491; &#1494;&#1511;&#1493;&#1507;, &#1492;&#1512;&#1501; &#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1500;&#1510;&#1491;&#1491;&#1497;&#1501; &#1506;&#1491; &#1500;&#1490;&#1493;&#1489;&#1492; &#1499;&#1514;&#1508;&#1497;&#1497;&#1501;, &#1492;&#1493;&#1512;&#1491; &#1500;&#1488;&#1496;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1492;&#1512;&#1502;&#1493;&#1514; &#1511;&#1491;&#1502;&#1497;&#1493;&#1514;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1492;&#1512;&#1501; &#1502;&#1513;&#1511;&#1493;&#1500;&#1514; &#1500;&#1508;&#1504;&#1497;&#1501; &#1506;&#1491; &#1500;&#1490;&#1493;&#1489;&#1492; &#1499;&#1514;&#1507;, &#1488;&#1508;&#1513;&#1512; &#1500;&#1505;&#1497;&#1512;&#1493;&#1490;&#1497;&#1503; &#1489;&#1497;&#1503; &#1497;&#1491;&#1497;&#1497;&#1501;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1496;&#1512;&#1497;&#1510;&#1508;&#1505; &#1502;&#1506;&#1500; &#1492;&#1512;&#1488;&#1513;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 75,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1489; &#1488;&#1493; &#1506;&#1502;&#1493;&#1491;, &#1492;&#1495;&#1494;&#1511; &#1502;&#1513;&#1511;&#1493;&#1500;&#1514; &#1488;&#1495;&#1514; &#1502;&#1506;&#1500; &#1492;&#1512;&#1488;&#1513;, &#1492;&#1493;&#1512;&#1491; &#1502;&#1488;&#1495;&#1493;&#1512;&#1497; &#1492;&#1512;&#1488;&#1513; &#1493;&#1492;&#1506;&#1500;&#1492; &#1495;&#1494;&#1512;&#1492;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;Tricep Kickback&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&ndash;15&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1492;&#1497;&#1513;&#1506;&#1503; &#1511;&#1491;&#1497;&#1502;&#1492;, &#1502;&#1512;&#1508;&#1511; &#1510;&#1502;&#1493;&#1491; &#1500;&#1490;&#1493;&#1507;, &#1497;&#1513;&#1512; &#1488;&#1514; &#1492;&#1497;&#1491; &#1500;&#1488;&#1495;&#1493;&#1512; &#1506;&#1491; &#1492;&#1505;&#1493;&#1507;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; ]</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; B: {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1497;&#1493;&#1501; B &ndash; &#1490;&#1489;, &#1489;&#1497;&#1510;&#1508;&#1505;, &#1489;&#1496;&#1503;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; focus: &quot;&#1490;&#1489;, &#1489;&#1497;&#1510;&#1508;&#1505;, &#1489;&#1496;&#1503;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; exercises: [</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1499;&#1508;&#1497;&#1508;&#1514; &#1489;&#1497;&#1510;&#1508;&#1505;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 4,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;10&ndash;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 75,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1506;&#1502;&#1493;&#1491; &#1494;&#1511;&#1493;&#1507;, &#1499;&#1508;&#1493;&#1514; &#1497;&#1491;&#1497;&#1497;&#1501; &#1511;&#1491;&#1497;&#1502;&#1492;, &#1499;&#1493;&#1508;&#1507; &#1502;&#1512;&#1508;&#1511;&#1497;&#1501; &#1493;&#1492;&#1506;&#1500;&#1492; &#1492;&#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1500;&#1499;&#1497;&#1493;&#1493;&#1503; &#1492;&#1499;&#1514;&#1508;&#1497;&#1497;&#1501;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1508;&#1496;&#1497;&#1513; (Hammer Curl)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1488;&#1495;&#1493;&#1494; &#1488;&#1514; &#1492;&#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1499;&#1488;&#1497;&#1500;&#1493; &#1494;&#1492; &#1508;&#1496;&#1497;&#1513;, &#1499;&#1493;&#1508;&#1507; &#1502;&#1512;&#1508;&#1511;&#1497;&#1501; &#1493;&#1513;&#1502;&#1493;&#1512; &#1506;&#1500; &#1492;&#1490;&#1493;&#1507; &#1497;&#1510;&#1497;&#1489;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1499;&#1508;&#1497;&#1508;&#1514; &#1512;&#1497;&#1499;&#1493;&#1494;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1489;, &#1492;&#1504;&#1495; &#1502;&#1512;&#1508;&#1511; &#1506;&#1500; &#1508;&#1504;&#1497;&#1501; &#1492;&#1497;&#1512;&#1498;, &#1499;&#1493;&#1508;&#1507; &#1500;&#1488;&#1496; &#1493;&#1492;&#1506;&#1500;&#1492; &#1502;&#1513;&#1511;&#1500; &#1500;&#1499;&#1497;&#1493;&#1493;&#1503; &#1492;&#1499;&#1514;&#1507;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1495;&#1514;&#1497;&#1512;&#1492; &#1499;&#1508;&#1493;&#1508;&#1492; (Bent-Over Row)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 4,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;10&ndash;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 90,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1499;&#1493;&#1508;&#1507; &#1502;&#1506;&#1496; &#1489;&#1512;&#1499;&#1497;&#1497;&#1501;, &#1490;&#1489; &#1499;&#1502;&#1506;&#1496; &#1502;&#1511;&#1489;&#1497;&#1500; &#1500;&#1512;&#1510;&#1508;&#1492;, &#1502;&#1513;&#1493;&#1498; &#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1500;&#1499;&#1497;&#1493;&#1493;&#1503; &#1492;&#1489;&#1496;&#1503;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1495;&#1514;&#1497;&#1512;&#1492; &#1495;&#1491;-&#1510;&#1491;&#1491;&#1497;&#1514; &#1506;&#1500; &#1492;&#1499;&#1505;&#1488;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12 &#1500;&#1499;&#1500; &#1510;&#1491;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 75,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1492;&#1497;&#1513;&#1506;&#1503; &#1506;&#1501; &#1497;&#1491; &#1493;&#1512;&#1490;&#1500; &#1506;&#1500; &#1492;&#1499;&#1505;&#1488;, &#1489;&#1497;&#1491; &#1492;&#1495;&#1493;&#1508;&#1513;&#1497;&#1514; &#1502;&#1513;&#1493;&#1498; &#1502;&#1513;&#1511;&#1493;&#1500;&#1514; &#1500;&#1499;&#1497;&#1493;&#1493;&#1503; &#1492;&#1502;&#1493;&#1514;&#1503;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1508;&#1500;&#1488;&#1504;&#1511;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;45&ndash;60 &#1513;&#1504;&#1497;&#1493;&#1514;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 45,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1492;&#1497;&#1513;&#1506;&#1503; &#1506;&#1500; &#1488;&#1502;&#1493;&#1514; &#1493;&#1512;&#1490;&#1500;&#1497;&#1497;&#1501;, &#1490;&#1493;&#1507; &#1489;&#1511;&#1493; &#1497;&#1513;&#1512;, &#1492;&#1495;&#1494;&#1511; &#1489;&#1494;&#1502;&#1503;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1511;&#1512;&#1488;&#1504;&#1509;&#1523; &#1489;&#1496;&#1503;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;20&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 45,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1499;&#1489; &#1506;&#1500; &#1492;&#1490;&#1489;, &#1499;&#1493;&#1508;&#1507; &#1489;&#1512;&#1499;&#1497;&#1497;&#1501;, &#1492;&#1512;&#1501; &#1499;&#1514;&#1508;&#1497;&#1497;&#1501; &#1511;&#1500;&#1493;&#1514; &#1502;&#1492;&#1512;&#1510;&#1508;&#1492; &#1500;&#1500;&#1488; &#1502;&#1513;&#1497;&#1499;&#1514; &#1492;&#1510;&#1493;&#1493;&#1488;&#1512;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1492;&#1512;&#1502;&#1514; &#1512;&#1490;&#1500;&#1497;&#1497;&#1501;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;15&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 45,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1499;&#1489; &#1506;&#1500; &#1492;&#1490;&#1489;, &#1492;&#1512;&#1501; &#1512;&#1490;&#1500;&#1497;&#1497;&#1501; &#1497;&#1513;&#1512;&#1493;&#1514; &#1500;&#1502;&#1506;&#1500;&#1492; &#1493;&#1492;&#1493;&#1512;&#1491; &#1500;&#1488;&#1496;, &#1490;&#1489; &#1510;&#1502;&#1493;&#1491; &#1500;&#1502;&#1494;&#1512;&#1503;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1505;&#1497;&#1489;&#1493;&#1489;&#1497; &#1512;&#1493;&#1505;&#1497;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;20 (&#1505;&#1498; &#1492;&#1499;&#1500;)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 45,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1513;&#1489;, &#1492;&#1496;&#1492; &#1502;&#1506;&#1496; &#1488;&#1495;&#1493;&#1512;&#1492;, &#1505;&#1493;&#1489;&#1489; &#1488;&#1514; &#1492;&#1490;&#1493;&#1507; &#1502;&#1510;&#1491; &#1500;&#1510;&#1491;, &#1488;&#1508;&#1513;&#1512; &#1506;&#1501; &#1502;&#1513;&#1511;&#1493;&#1500;&#1514; &#1500;&#1511;&#1493;&#1513;&#1497;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; ]</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; C: {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1497;&#1493;&#1501; C &ndash; &#1499;&#1500; &#1492;&#1490;&#1493;&#1507; + &#1489;&#1496;&#1503;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; focus: &quot;&#1499;&#1500; &#1492;&#1490;&#1493;&#1507;, &#1491;&#1490;&#1513; &#1512;&#1490;&#1500;&#1497;&#1497;&#1501; &#1493;&#1489;&#1496;&#1503;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; exercises: [</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1505;&#1511;&#1493;&#1493;&#1488;&#1496; &#1490;&#1489;&#1497;&#1506; (Goblet Squat)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;15&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 75,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1492;&#1495;&#1494;&#1511; &#1502;&#1513;&#1511;&#1493;&#1500;&#1514; &#1488;&#1495;&#1514; &#1489;&#1490;&#1493;&#1489;&#1492; &#1492;&#1495;&#1494;&#1492;, &#1499;&#1493;&#1508;&#1507; &#1489;&#1512;&#1499;&#1497;&#1497;&#1501; &#1493;&#1497;&#1512;&#1491; &#1500;&#1505;&#1511;&#1493;&#1493;&#1488;&#1496;, &#1506;&#1500;&#1492; &#1489;&#1495;&#1494;&#1512;&#1492;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;Romanian Deadlift&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 90,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1506;&#1501; &#1502;&#1513;&#1511;&#1493;&#1500;&#1493;&#1514; &#1489;&#1497;&#1491;&#1497;&#1497;&#1501;, &#1513;&#1502;&#1493;&#1512; &#1490;&#1489; &#1497;&#1513;&#1512;, &#1492;&#1493;&#1512;&#1491; &#1500;&#1488;&#1493;&#1512;&#1498; &#1492;&#1512;&#1490;&#1500;&#1497;&#1497;&#1501; &#1506;&#1491; &#1513;&#1514;&#1512;&#1490;&#1497;&#1513; &#1502;&#1514;&#1497;&#1495;&#1492; &#1489;&#1492;&#1502;&#1505;&#1496;&#1512;&#1497;&#1504;&#1490; &#1493;&#1495;&#1494;&#1493;&#1512;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1500;&#1495;&#1497;&#1510;&#1514; &#1495;&#1494;&#1492; &#1513;&#1496;&#1493;&#1495;&#1492;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;10&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 75,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1489;&#1491;&#1493;&#1502;&#1492; &#1500;&#1497;&#1493;&#1501; A, &#1488;&#1498; &#1499;&#1488;&#1503; &#1499;&#1495;&#1500;&#1511; &#1502;&#1488;&#1497;&#1502;&#1493;&#1503; &#1499;&#1500;&#1500;&#1497; &ndash; &#1513;&#1502;&#1493;&#1512; &#1506;&#1500; &#1496;&#1493;&#1493;&#1495; &#1514;&#1504;&#1493;&#1506;&#1492; &#1488;&#1497;&#1499;&#1493;&#1514;&#1497;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1500;&#1495;&#1497;&#1510;&#1514; &#1499;&#1514;&#1508;&#1497;&#1497;&#1501; &#1489;&#1497;&#1513;&#1497;&#1489;&#1492;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;10&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 75,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1499;&#1502;&#1493; &#1497;&#1493;&#1501; A, &#1502;&#1513;&#1511;&#1500; &#1502;&#1506;&#1496; &#1511;&#1500; &#1497;&#1493;&#1514;&#1512; &#1488;&#1501; &#1510;&#1512;&#1497;&#1498; &#1489;&#1490;&#1500;&#1500; &#1492;&#1506;&#1493;&#1502;&#1505; &#1492;&#1502;&#1510;&#1496;&#1489;&#1512;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1499;&#1508;&#1497;&#1508;&#1514; &#1489;&#1497;&#1510;&#1508;&#1505;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1495;&#1494;&#1512;&#1492; &#1506;&#1500; &#1514;&#1512;&#1490;&#1497;&#1500; &#1489;&#1497;&#1510;&#1508;&#1505; &#1500;&#1492;&#1513;&#1500;&#1502;&#1514; &#1492;&#1506;&#1489;&#1493;&#1491;&#1492; &#1506;&#1500; &#1492;&#1497;&#1491;&#1497;&#1497;&#1501;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1492;&#1512;&#1495;&#1489;&#1514; &#1496;&#1512;&#1497;&#1510;&#1508;&#1505;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1488;&#1508;&#1513;&#1512; &#1502;&#1506;&#1500; &#1492;&#1512;&#1488;&#1513; &#1488;&#1493; &#1489;-Kickback &ndash; &#1489;&#1495;&#1512; &#1502;&#1492; &#1513;&#1504;&#1493;&#1495; &#1500;&#1498;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1492;&#1512;&#1502;&#1493;&#1514; &#1510;&#1491; &#1500;&#1499;&#1514;&#1508;&#1497;&#1497;&#1501;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;12&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 60,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1500;&#1514;&#1514; &#1506;&#1493;&#1491; &#1490;&#1497;&#1512;&#1493;&#1497; &#1500;&#1499;&#1514;&#1508;&#1497;&#1497;&#1501; &#1492;&#1510;&#1491;&#1497;&#1493;&#1514;, &#1502;&#1513;&#1511;&#1500; &#1489;&#1497;&#1504;&#1493;&#1504;&#1497;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;&#1508;&#1500;&#1488;&#1504;&#1511;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 2,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;60 &#1513;&#1504;&#1497;&#1493;&#1514;&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 45,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1492;&#1495;&#1494;&#1511; &#1490;&#1493;&#1507; &#1497;&#1513;&#1512;, &#1489;&#1496;&#1503; &#1488;&#1505;&#1493;&#1508;&#1492;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name: &quot;Mountain Climbers&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sets: 3,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reps: &quot;20 (&#1500;&#1499;&#1500; &#1510;&#1491; 10)&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; restSec: 45,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desc: &quot;&#1506;&#1502;&#1497;&#1491;&#1514; &#1499;&#1508;&#1497;&#1508;&#1492;, &#1502;&#1513;&#1497;&#1499;&#1492; &#1502;&#1492;&#1497;&#1512;&#1492; &#1513;&#1500; &#1489;&#1512;&#1499;&#1497;&#1497;&#1501; &#1500;&#1499;&#1497;&#1493;&#1493;&#1503; &#1492;&#1495;&#1494;&#1492; &#1500;&#1505;&#1497;&#1512;&#1493;&#1490;&#1497;&#1503;.&quot;,</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; ]</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; };</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; // &#1502;&#1510;&#1489; &#1488;&#1497;&#1502;&#1493;&#1503;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; let currentDay = null;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; let currentExerciseIndex = 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; let currentSet = 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; let timerInterval = null;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; let timerMode = &quot;idle&quot;; // &quot;idle&quot;, &quot;work&quot;, &quot;rest&quot;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; let timerRemaining = 0;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const exercisePanel = document.getElementById(&quot;exercise-panel&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const exerciseActive = document.getElementById(&quot;exercise-active&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const noWorkoutMessage = document.getElementById(&quot;no-workout-message&quot;);</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const exerciseNameEl = document.getElementById(&quot;exercise-name&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const exerciseMetaEl = document.getElementById(&quot;exercise-meta&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const exerciseDescEl = document.getElementById(&quot;exercise-desc&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const badgeSetsEl = document.getElementById(&quot;badge-sets&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const badgeRepsEl = document.getElementById(&quot;badge-reps&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const badgeRestEl = document.getElementById(&quot;badge-rest&quot;);</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const progressBarEl = document.getElementById(&quot;progress-bar&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const progressTextEl = document.getElementById(&quot;progress-text&quot;);</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const timerDisplayEl = document.getElementById(&quot;timer-display&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const timerLabelEl = document.getElementById(&quot;timer-label&quot;);</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const btnStartSet = document.getElementById(&quot;btn-start-set&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const btnFinishSet = document.getElementById(&quot;btn-finish-set&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const btnSkipExercise = document.getElementById(&quot;btn-skip-exercise&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const btnResetWorkout = document.getElementById(&quot;btn-reset-workout&quot;);</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const planTitleEl = document.getElementById(&quot;plan-title&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const planSubtitleEl = document.getElementById(&quot;plan-subtitle&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const planTableEl = document.getElementById(&quot;plan-table&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const planBodyEl = document.getElementById(&quot;plan-body&quot;);</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function startWorkout(dayKey) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentDay = dayKey;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentExerciseIndex = 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentSet = 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerMode = &quot;idle&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; clearTimer();</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const day = workouts[dayKey];</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; noWorkoutMessage.style.display = &quot;none&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; exerciseActive.style.display = &quot;block&quot;;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; // &#1506;&#1491;&#1499;&#1493;&#1503; &#1496;&#1489;&#1500;&#1514; &#1492;&#1514;&#1512;&#1490;&#1497;&#1500;&#1497;&#1501;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planTitleEl.textContent = day.name;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planSubtitleEl.textContent = &quot;&#1512;&#1513;&#1497;&#1502;&#1514; &#1492;&#1514;&#1512;&#1490;&#1497;&#1500;&#1497;&#1501; &#1492;&#1502;&#1500;&#1488;&#1492; &#1500;&#1488;&#1497;&#1502;&#1493;&#1503; &#1494;&#1492;:&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planTableEl.style.display = &quot;table&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planBodyEl.innerHTML = &quot;&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; day.exercises.forEach(ex =&gt; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; const tr = document.createElement(&quot;tr&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; tr.innerHTML = `</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;${ex.name}&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;${ex.sets}&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;${ex.reps}&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td&gt;${ex.restSec} &#1513;&#1504;&#1497;&#1493;&#1514;&lt;/td&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; `;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; planBodyEl.appendChild(tr);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; });</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; // &#1514;&#1512;&#1490;&#1497;&#1500; &#1512;&#1488;&#1513;&#1493;&#1503;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; loadCurrentExercise();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; updateProgress();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function loadCurrentExercise() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const day = workouts[currentDay];</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const ex = day.exercises[currentExerciseIndex];</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentSet = 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerMode = &quot;idle&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; clearTimer();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerDisplayEl.textContent = &quot;00:00&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerLabelEl.textContent = &quot;&#1502;&#1493;&#1499;&#1503; &#1500;&#1505;&#1496; &#1492;&#1489;&#1488;&quot;;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; exerciseNameEl.textContent = ex.name;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; exerciseMetaEl.textContent = `${day.name} &bull; &#1514;&#1512;&#1490;&#1497;&#1500; ${currentExerciseIndex + 1} &#1502;&#1514;&#1493;&#1498; ${day.exercises.length}`;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; exerciseDescEl.textContent = ex.desc;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; badgeSetsEl.textContent = `&#1505;&#1496;&#1497;&#1501;: ${ex.sets}`;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; badgeRepsEl.textContent = `&#1495;&#1494;&#1512;&#1493;&#1514;: ${ex.reps}`;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; badgeRestEl.textContent = `&#1502;&#1504;&#1493;&#1495;&#1492; &#1489;&#1497;&#1503; &#1505;&#1496;&#1497;&#1501;: ${ex.restSec} &#1513;&#1504;&#1497;&#1493;&#1514;`;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btnStartSet.disabled = false;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btnFinishSet.disabled = true;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; updateProgress();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function countTotalSets(dayKey) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const exs = workouts[dayKey].exercises;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; return exs.reduce((sum, e) =&gt; sum + e.sets, 0);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function updateProgress() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (!currentDay) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; progressBarEl.style.width = &quot;0%&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; progressTextEl.textContent = &quot;&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; return;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const day = workouts[currentDay];</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const totalSets = countTotalSets(currentDay);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; let completedSets = 0;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; for (let i = 0; i &lt; day.exercises.length; i++) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; const ex = day.exercises[i];</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; if (i &lt; currentExerciseIndex) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; completedSets += ex.sets;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; } else if (i === currentExerciseIndex) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; completedSets += currentSet;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const percent = Math.round((completedSets / totalSets) * 100);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; progressBarEl.style.width = percent + &quot;%&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; progressTextEl.textContent = `&#1492;&#1513;&#1500;&#1502;&#1514; &#1489;&#1506;&#1512;&#1498; ${percent}% &#1502;&#1492;&#1488;&#1497;&#1502;&#1493;&#1503; (&#1505;&#1496; ${currentSet} &#1489;&#1514;&#1512;&#1490;&#1497;&#1500; ${currentExerciseIndex + 1}).`;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function startSet() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (!currentDay) return;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const ex = workouts[currentDay].exercises[currentExerciseIndex];</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerMode = &quot;work&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerRemaining = 0; // &#1488;&#1508;&#1513;&#1512; &#1500;&#1492;&#1510;&#1497;&#1490; &#1494;&#1502;&#1503; &#1506;&#1493;&#1500;&#1492;, &#1488;&#1489;&#1500; &#1504;&#1513;&#1488;&#1497;&#1512; 00:00 &ndash; &#1488;&#1514;&#1492; &#1506;&#1493;&#1489;&#1491; &#1489;&#1511;&#1510;&#1489; &#1513;&#1500;&#1498;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerLabelEl.textContent = &quot;&#1505;&#1496; &#1489;&#1506;&#1489;&#1493;&#1491;&#1492; &ndash; &#1489;&#1510;&#1506; &#1488;&#1514; &#1492;&#1495;&#1494;&#1512;&#1493;&#1514; &#1500;&#1508;&#1497; &#1492;&#1514;&#1495;&#1493;&#1513;&#1492; &#1513;&#1500;&#1498;.&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerDisplayEl.textContent = &quot;&#9654;&#65039;&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btnStartSet.disabled = true;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btnFinishSet.disabled = false;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function finishSet() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (!currentDay) return;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const ex = workouts[currentDay].exercises[currentExerciseIndex];</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentSet += 1;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; updateProgress();</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (currentSet &gt;= ex.sets) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; // &#1499;&#1500; &#1492;&#1505;&#1496;&#1497;&#1501; &#1500;&#1514;&#1512;&#1490;&#1497;&#1500; &#1494;&#1492; &#1492;&#1493;&#1513;&#1500;&#1502;&#1493;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; goToNextExercise();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; } else {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; // &#1502;&#1504;&#1493;&#1495;&#1492; &#1489;&#1497;&#1503; &#1505;&#1496;&#1497;&#1501;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; startRest(ex.restSec);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function startRest(seconds) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerMode = &quot;rest&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerRemaining = seconds;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerLabelEl.textContent = &quot;&#1502;&#1504;&#1493;&#1495;&#1492; &#1489;&#1497;&#1503; &#1505;&#1496;&#1497;&#1501; &ndash; &#1504;&#1510;&#1500; &#1488;&#1514; &#1492;&#1494;&#1502;&#1503; &#1500;&#1513;&#1514;&#1493;&#1514; &#1502;&#1497;&#1501;.&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; updateTimerDisplay();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; clearTimer();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerInterval = setInterval(() =&gt; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; timerRemaining -= 1;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; if (timerRemaining &lt;= 0) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; clearTimer();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; timerMode = &quot;idle&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; timerLabelEl.textContent = &quot;&#1492;&#1502;&#1504;&#1493;&#1495;&#1492; &#1492;&#1505;&#1514;&#1497;&#1497;&#1502;&#1492; &ndash; &#1502;&#1493;&#1499;&#1503; &#1500;&#1505;&#1496; &#1492;&#1489;&#1488;.&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; timerDisplayEl.textContent = &quot;00:00&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; btnStartSet.disabled = false;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; btnFinishSet.disabled = true;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; } else {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; updateTimerDisplay();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }, 1000);</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btnStartSet.disabled = true;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btnFinishSet.disabled = true;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function updateTimerDisplay() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const min = String(Math.floor(timerRemaining / 60)).padStart(2, &quot;0&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const sec = String(timerRemaining % 60).padStart(2, &quot;0&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerDisplayEl.textContent = `${min}:${sec}`;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function clearTimer() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (timerInterval) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; clearInterval(timerInterval);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; timerInterval = null;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function goToNextExercise() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const day = workouts[currentDay];</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentExerciseIndex += 1;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (currentExerciseIndex &gt;= day.exercises.length) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; // &#1488;&#1497;&#1502;&#1493;&#1503; &#1492;&#1505;&#1514;&#1497;&#1497;&#1501;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; clearTimer();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; timerMode = &quot;idle&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; timerDisplayEl.textContent = &quot;&#10004;&#65039;&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; timerLabelEl.textContent = &quot;&#1499;&#1500; &#1492;&#1499;&#1489;&#1493;&#1491;! &#1505;&#1497;&#1497;&#1502;&#1514; &#1488;&#1514; &#1499;&#1500; &#1492;&#1488;&#1497;&#1502;&#1493;&#1503; &#1500;&#1492;&#1497;&#1493;&#1501;.&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; btnStartSet.disabled = true;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; btnFinishSet.disabled = true;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; btnSkipExercise.disabled = true;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; updateProgress();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; } else {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; loadCurrentExercise();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function skipExercise() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (!currentDay) return;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; const day = workouts[currentDay];</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentExerciseIndex += 1;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; if (currentExerciseIndex &gt;= day.exercises.length) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; // &#1488;&#1497;&#1503; &#1506;&#1493;&#1491; &#1514;&#1512;&#1490;&#1497;&#1500;&#1497;&#1501;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; goToNextExercise();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; } else {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; loadCurrentExercise();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; function resetWorkout() {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; clearTimer();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentDay = null;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentExerciseIndex = 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; currentSet = 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerMode = &quot;idle&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerDisplayEl.textContent = &quot;00:00&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; timerLabelEl.textContent = &quot;&#1502;&#1493;&#1499;&#1503; &#1500;&#1505;&#1496; &#1492;&#1489;&#1488;&quot;;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; exerciseActive.style.display = &quot;none&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; noWorkoutMessage.style.display = &quot;block&quot;;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planTitleEl.textContent = &quot;&#1514;&#1493;&#1499;&#1504;&#1497;&#1514; &#1492;&#1497;&#1493;&#1501;&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planSubtitleEl.textContent = &quot;&#1489;&#1495;&#1512; &#1497;&#1493;&#1501; &#1488;&#1497;&#1502;&#1493;&#1503; &#1499;&#1491;&#1497; &#1500;&#1512;&#1488;&#1493;&#1514; &#1488;&#1514; &#1512;&#1513;&#1497;&#1502;&#1514; &#1492;&#1514;&#1512;&#1490;&#1497;&#1500;&#1497;&#1501; &#1492;&#1502;&#1500;&#1488;&#1492;.&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planTableEl.style.display = &quot;none&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; planBodyEl.innerHTML = &quot;&quot;;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; progressBarEl.style.width = &quot;0%&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; progressTextEl.textContent = &quot;&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btnSkipExercise.disabled = false;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; // ------- TAB SWITCHING ------- //</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const tabButtons = document.querySelectorAll(&quot;.tab-btn&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; const tabContents = {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; workout: document.getElementById(&quot;tab-workout&quot;),</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; nutrition: document.getElementById(&quot;tab-nutrition&quot;),</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; about: document.getElementById(&quot;tab-about&quot;),</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; };</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; tabButtons.forEach(btn =&gt; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; btn.addEventListener(&quot;click&quot;, () =&gt; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; const tab = btn.getAttribute(&quot;data-tab&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; tabButtons.forEach(b =&gt; b.classList.remove(&quot;active&quot;));</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; btn.classList.add(&quot;active&quot;);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; Object.keys(tabContents).forEach(key =&gt; {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; tabContents[key].style.display = key === tab ? &quot;block&quot; : &quot;none&quot;;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; });</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; });</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; });</span></p><p class="c0"><span class="c1">&nbsp; &lt;/script&gt;</span></p><p class="c0"><span class="c1">&lt;/body&gt;</span></p><p class="c0"><span class="c1">&lt;/html&gt;</span></p><p class="c0 c2"><span class="c1"></span></p></body></html>
+<!DOCTYPE html>
+
+<html lang="he" dir="rtl">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>אפליקציית אימון ביתי</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+
+    body {
+
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      background: #0f172a;
+
+      color: #e5e7eb;
+
+      margin: 0;
+
+      padding: 0;
+
+      direction: rtl;
+
+      text-align: right;
+
+    }
+
+    .app-container {
+
+      max-width: 900px;
+
+      margin: 0 auto;
+
+      padding: 16px;
+
+    }
+
+    h1, h2, h3 {
+
+      margin: 0 0 8px;
+
+    }
+
+    h1 {
+
+      text-align: center;
+
+      margin-top: 8px;
+
+      margin-bottom: 12px;
+
+    }
+
+    .tabs {
+
+      display: flex;
+
+      gap: 8px;
+
+      margin-bottom: 16px;
+
+      flex-wrap: wrap;
+
+    }
+
+    .tab-btn {
+
+      flex: 1;
+
+      min-width: 80px;
+
+      padding: 8px 12px;
+
+      border-radius: 999px;
+
+      border: none;
+
+      cursor: pointer;
+
+      background: #1f2937;
+
+      color: #e5e7eb;
+
+      font-size: 14px;
+
+    }
+
+    .tab-btn.active {
+
+      background: #22c55e;
+
+      color: #020617;
+
+      font-weight: 600;
+
+    }
+
+    .card {
+
+      background: #020617;
+
+      border-radius: 16px;
+
+      padding: 16px;
+
+      box-shadow: 0 8px 24px rgba(0,0,0,0.65);
+
+      margin-bottom: 16px;
+
+      border: 1px solid #1f2937;
+
+    }
+
+    .sub-card {
+
+      background: #020617;
+
+      border-radius: 12px;
+
+      padding: 12px;
+
+      border: 1px solid #1f2937;
+
+      margin-top: 8px;
+
+    }
+
+    .pill-row {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 6px;
+
+      margin: 6px 0 10px;
+
+    }
+
+    .pill {
+
+      padding: 4px 10px;
+
+      border-radius: 999px;
+
+      background: #111827;
+
+      font-size: 12px;
+
+    }
+
+    .pill.green { background: #16a34a33; color: #4ade80; }
+
+    .pill.blue  { background: #1d4ed833; color: #60a5fa; }
+
+    .pill.orange{ background: #ea580c33; color: #fdba74; }
+
+    .pill.gray  { background: #4b556333; color: #9ca3af; }
+
+
+    .flex {
+
+      display: flex;
+
+      gap: 12px;
+
+    }
+
+    .flex-col {
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 8px;
+
+    }
+
+    .flex-wrap { flex-wrap: wrap; }
+
+
+    .two-cols {
+
+      display: grid;
+
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+
+      gap: 12px;
+
+    }
+
+    @media (max-width: 720px) {
+
+      .two-cols {
+
+        grid-template-columns: minmax(0, 1fr);
+
+      }
+
+    }
+
+
+    .exercise-name {
+
+      font-size: 18px;
+
+      font-weight: 700;
+
+      color: #f9fafb;
+
+    }
+
+    .exercise-sub {
+
+      font-size: 13px;
+
+      color: #9ca3af;
+
+    }
+
+    .exercise-desc {
+
+      font-size: 14px;
+
+      color: #d1d5db;
+
+      margin-top: 4px;
+
+      line-height: 1.5;
+
+    }
+
+
+    .badge {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 4px;
+
+      border-radius: 999px;
+
+      padding: 4px 8px;
+
+      font-size: 12px;
+
+      background: #111827;
+
+      color: #e5e7eb;
+
+    }
+
+    .badge span.icon {
+
+      font-size: 13px;
+
+    }
+
+
+    .btn-row {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 8px;
+
+      margin-top: 8px;
+
+    }
+
+    .btn {
+
+      border-radius: 999px;
+
+      border: none;
+
+      padding: 8px 14px;
+
+      font-size: 14px;
+
+      cursor: pointer;
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+      background: #1f2937;
+
+      color: #e5e7eb;
+
+    }
+
+    .btn.primary {
+
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+
+      color: #020617;
+
+      font-weight: 600;
+
+    }
+
+    .btn.outline {
+
+      background: transparent;
+
+      border: 1px solid #374151;
+
+    }
+
+    .btn:disabled {
+
+      opacity: 0.4;
+
+      cursor: not-allowed;
+
+    }
+
+
+    .timer-display {
+
+      font-size: 32px;
+
+      font-weight: 700;
+
+      margin: 4px 0;
+
+      font-variant-numeric: tabular-nums;
+
+    }
+
+    .timer-label {
+
+      font-size: 13px;
+
+      color: #9ca3af;
+
+    }
+
+
+    .progress-line {
+
+      width: 100%;
+
+      height: 8px;
+
+      border-radius: 999px;
+
+      background: #0b1120;
+
+      overflow: hidden;
+
+      margin-top: 4px;
+
+    }
+
+    .progress-fill {
+
+      height: 100%;
+
+      border-radius: 999px;
+
+      background: linear-gradient(90deg, #22c55e, #4ade80);
+
+      width: 0%;
+
+      transition: width 0.2s ease-out;
+
+    }
+
+
+    .label {
+
+      font-size: 13px;
+
+      color: #9ca3af;
+
+      margin-bottom: 2px;
+
+    }
+
+
+    table {
+
+      width: 100%;
+
+      border-collapse: collapse;
+
+      font-size: 13px;
+
+      margin-top: 6px;
+
+    }
+
+    th, td {
+
+      border-bottom: 1px solid #111827;
+
+      padding: 6px 4px;
+
+    }
+
+    th {
+
+      background: #020617;
+
+      color: #9ca3af;
+
+      font-weight: 600;
+
+      text-align: right;
+
+    }
+
+    tr:nth-child(even) td {
+
+      background: #020617;
+
+    }
+
+
+    .tag {
+
+      display: inline-block;
+
+      padding: 2px 8px;
+
+      border-radius: 999px;
+
+      background: #111827;
+
+      font-size: 11px;
+
+      color: #9ca3af;
+
+      margin-left: 4px;
+
+    }
+
+
+    .small {
+
+      font-size: 12px;
+
+      color: #9ca3af;
+
+    }
+
+
+    .macro-row {
+
+      display: flex;
+
+      gap: 8px;
+
+      flex-wrap: wrap;
+
+      margin-top: 4px;
+
+    }
+
+    .macro-pill {
+
+      border-radius: 999px;
+
+      padding: 4px 10px;
+
+      font-size: 12px;
+
+      background: #111827;
+
+      color: #e5e7eb;
+
+    }
+
+
+    .highlight {
+
+      color: #4ade80;
+
+      font-weight: 600;
+
+    }
+
+
+    .footer-note {
+
+      font-size: 11px;
+
+      color: #6b7280;
+
+      margin-top: 8px;
+
+      line-height: 1.5;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="app-container">
+
+    <h1>מאמן הבית של הארי 💪</h1>
+
+
+    <!-- Tabs -->
+
+    <div class="tabs">
+
+      <button class="tab-btn active" data-tab="workout">אימון</button>
+
+      <button class="tab-btn" data-tab="nutrition">תזונה</button>
+
+      <button class="tab-btn" data-tab="about">איך משתמשים?</button>
+
+    </div>
+
+
+    <!-- WORKOUT TAB -->
+
+    <div id="tab-workout" class="tab-content">
+
+      <div class="card">
+
+        <h2>בחירת יום אימון</h2>
+
+        <div class="pill-row">
+
+          <span class="pill green">מטרה: חיטוב + בניית שריר</span>
+
+          <span class="pill blue">3 אימונים בשבוע</span>
+
+          <span class="pill orange">60 דקות לכל אימון</span>
+
+        </div>
+
+
+        <div class="sub-card">
+
+          <div class="flex-wrap flex">
+
+            <button class="btn primary" onclick="startWorkout('A')">
+
+              יום A – חזה, כתפיים, טריצפס
+
+            </button>
+
+            <button class="btn primary" onclick="startWorkout('B')">
+
+              יום B – גב, ביצפס, בטן
+
+            </button>
+
+            <button class="btn primary" onclick="startWorkout('C')">
+
+              יום C – כל הגוף + בטן
+
+            </button>
+
+          </div>
+
+          <p class="small" style="margin-top:8px;">
+
+            המלצה שבועית: ראשון – יום A, שלישי – יום B, חמישי – יום C.
+
+          </p>
+
+        </div>
+
+
+        <div class="two-cols" style="margin-top:12px;">
+
+          <!-- Exercise panel -->
+
+          <div class="sub-card" id="exercise-panel">
+
+            <h3>תרגיל נוכחי</h3>
+
+            <div id="no-workout-message" class="small">
+
+              בחר למעלה יום אימון כדי להתחיל.
+
+            </div>
+
+
+            <div id="exercise-active" style="display:none;">
+
+              <div class="exercise-name" id="exercise-name"></div>
+
+              <div class="exercise-sub" id="exercise-meta"></div>
+
+              <div class="exercise-desc" id="exercise-desc"></div>
+
+
+              <div class="pill-row" style="margin-top:8px;">
+
+                <span class="badge">
+
+                  <span class="icon">🏋️‍♂️</span>
+
+                  <span id="badge-sets"></span>
+
+                </span>
+
+                <span class="badge">
+
+                  <span class="icon">🔁</span>
+
+                  <span id="badge-reps"></span>
+
+                </span>
+
+                <span class="badge">
+
+                  <span class="icon">⏱️</span>
+
+                  <span id="badge-rest"></span>
+
+                </span>
+
+              </div>
+
+
+              <div style="margin-top:8px;">
+
+                <div class="label">התקדמות באימון</div>
+
+                <div class="progress-line">
+
+                  <div id="progress-bar" class="progress-fill"></div>
+
+                </div>
+
+                <div class="small" id="progress-text" style="margin-top:4px;"></div>
+
+              </div>
+
+
+              <div class="btn-row">
+
+                <button class="btn primary" id="btn-start-set" onclick="startSet()">
+
+                  ▶️ התחל סט
+
+                </button>
+
+                <button class="btn" id="btn-finish-set" onclick="finishSet()" disabled>
+
+                  ✅ סיימתי סט
+
+                </button>
+
+                <button class="btn outline" id="btn-skip-exercise" onclick="skipExercise()">
+
+                  ⏭️ דלג תרגיל
+
+                </button>
+
+                <button class="btn outline" id="btn-reset-workout" onclick="resetWorkout()">
+
+                  🔄 איפוס אימון
+
+                </button>
+
+              </div>
+
+
+              <div class="sub-card" style="margin-top:10px; background:#020617;">
+
+                <div class="label">מצב הטיימר</div>
+
+                <div class="timer-display" id="timer-display">00:00</div>
+
+                <div class="timer-label" id="timer-label">מוכן לסט הבא</div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Day plan / list -->
+
+          <div class="sub-card">
+
+            <h3 id="plan-title">תוכנית היום</h3>
+
+            <div class="small" id="plan-subtitle">
+
+              בחר יום אימון כדי לראות את רשימת התרגילים המלאה.
+
+            </div>
+
+            <table id="plan-table" style="display:none;">
+
+              <thead>
+
+                <tr>
+
+                  <th>תרגיל</th>
+
+                  <th>סטים</th>
+
+                  <th>חזרות</th>
+
+                  <th>מנוחה</th>
+
+                </tr>
+
+              </thead>
+
+              <tbody id="plan-body"></tbody>
+
+            </table>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- NUTRITION TAB -->
+
+    <div id="tab-nutrition" class="tab-content" style="display:none;">
+
+      <div class="card">
+
+        <h2>תזונה לחיטוב + בניית שריר</h2>
+
+        <div class="pill-row">
+
+          <span class="pill green">אוכל הכל</span>
+
+          <span class="pill blue">מעדיף חלבי</span>
+
+          <span class="pill orange">3–4 ארוחות ביום</span>
+
+          <span class="pill gray">תקציב בינוני</span>
+
+        </div>
+
+
+        <div class="sub-card">
+
+          <h3>יעדים יומיים (משקל 65 ק״ג)</h3>
+
+          <div class="macro-row">
+
+            <span class="macro-pill">
+
+              חלבון: <span class="highlight">100–120 גרם</span> ליום
+
+            </span>
+
+            <span class="macro-pill">
+
+              קלוריות: <span class="highlight">≈ 2,000–2,200</span> ליום (חיטוב קל)
+
+            </span>
+
+            <span class="macro-pill">
+
+              אימון בערב – פחמימה וחלבון לפני ואחרי
+
+            </span>
+
+          </div>
+
+          <p class="footer-note">
+
+            טווח החלבון מבוסס על המלצות מקצועיות למתאמני כוח (בערך 1.6–2.0 גרם חלבון לכל ק״ג משקל גוף ליום, במטרה לבנות ולשמר מסת שריר תוך חיטוב). [web:63][web:73]
+
+          </p>
+
+        </div>
+
+
+        <div class="sub-card">
+
+          <h3>מבנה יומי מומלץ (3–4 ארוחות)</h3>
+
+          <ul class="small">
+
+            <li><span class="highlight">ארוחת בוקר</span> – חלבון + פחמימה מורכבת.</li>
+
+            <li><span class="highlight">ארוחת צהריים</span> – עיקרית, שובע טוב עד האימון.</li>
+
+            <li><span class="highlight">ארוחת ביניים לפני אימון</span> – קלה, אנרגיה + קצת חלבון.</li>
+
+            <li><span class="highlight">ארוחת ערב אחרי אימון</span> – חלבון גבוה + פחמימה, מעט שומן.</li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="sub-card">
+
+          <h3>דוגמה ליום תזונה (חלבי־מועדף)</h3>
+
+          <table>
+
+            <thead>
+
+              <tr>
+
+                <th>ארוחה</th>
+
+                <th>מה אוכלים</th>
+
+                <th>הערכה לחלבון</th>
+
+              </tr>
+
+            </thead>
+
+            <tbody>
+
+              <tr>
+
+                <td>בוקר</td>
+
+                <td>
+
+                  יוגורט יוני/סקיר 200 גרם + גרנולה/שיבולת שועל + פרי (בננה/תפוח)
+
+                </td>
+
+                <td>≈ 20–25 גרם</td>
+
+              </tr>
+
+              <tr>
+
+                <td>צהריים</td>
+
+                <td>
+
+                  פסטה/אורז/פתיתים + גבינת קוטג׳ 5% / טופו + סלט גדול עם שמן זית
+
+                </td>
+
+                <td>≈ 25–30 גרם</td>
+
+              </tr>
+
+              <tr>
+
+                <td>לפני אימון (קל)</td>
+
+                <td>
+
+                  פרוסת לחם מלא עם גבינה לבנה 5% או טוסט גבינה צהובה 9% + פרי
+
+                </td>
+
+                <td>≈ 10–15 גרם</td>
+
+              </tr>
+
+              <tr>
+
+                <td>אחרי אימון</td>
+
+                <td>
+
+                  שייק חלבון (סקופ אבקת חלבון בחלב/מים) + פרוסת לחם מלא עם חומוס/אבוקדו
+
+                </td>
+
+                <td>≈ 25–30 גרם</td>
+
+              </tr>
+
+              <tr>
+
+                <td>נשנוש אפשרי</td>
+
+                <td>
+
+                  חטיף חלבון / יוגורט חלבון / חופן אגוזים + פרי
+
+                </td>
+
+                <td>≈ 10–15 גרם</td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          <p class="footer-note">
+
+            זהו רק מודל יומי – אפשר לגוון עם ביצים, טונה במים, עדשים/חומוס, גבינות שונות, פסטות/אורז מלא, קוסקוס, קינואה ועוד, בהתאם למה שטעים וזמין לך. [web:71][web:77]
+
+          </p>
+
+        </div>
+
+
+        <div class="sub-card">
+
+          <h3>עקרונות שחשוב לזכור</h3>
+
+          <ul class="small">
+
+            <li>לנסות לפזר חלבון לאורך היום (3–4 “מנות חלבון” טובות בכל יום).</li>
+
+            <li>להגיע קרוב ליעד החלבון חשוב יותר מספירת קלוריות מושלמת.</li>
+
+            <li>לפני אימון – לא לאכול כבד מדי כדי שלא תרגיש נפוח.</li>
+
+            <li>אחרי אימון – עדיף חלבון + פחמימה בתוך 1–2 שעות.</li>
+
+            <li>מים: לשתות לאורך היום – במיוחד סביב האימון (לפחות 6–8 כוסות). [web:54][web:60]</li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ABOUT TAB -->
+
+    <div id="tab-about" class="tab-content" style="display:none;">
+
+      <div class="card">
+
+        <h2>איך להשתמש באפליקציה</h2>
+
+        <div class="sub-card">
+
+          <h3>הפעלת האימון</h3>
+
+          <ol class="small">
+
+            <li>בחר למעלה בלשונית <strong>אימון</strong>.</li>
+
+            <li>בחר יום אימון: A / B / C לפי היום בשבוע.</li>
+
+            <li>יופיע התרגיל הראשון, מספר הסטים, החזרות והמנוחה המומלצת.</li>
+
+            <li>לחץ על <strong>“התחל סט”</strong> – בצע את הסט בקצב שלך.</li>
+
+            <li>בסיום הסט לחץ <strong>“סיימתי סט”</strong> – יתחיל טיימר מנוחה.</li>
+
+            <li>בסיום המנוחה הטיימר נעצר – עבור לסט הבא על אותו תרגיל.</li>
+
+            <li>לאחר שסיימת את כל הסטים – האפליקציה תעבור אוטומטית לתרגיל הבא.</li>
+
+          </ol>
+
+        </div>
+
+
+        <div class="sub-card">
+
+          <h3>איפוס והתקדמות</h3>
+
+          <ul class="small">
+
+            <li>כפתור <strong>“דלג תרגיל”</strong> – ידלג מיד לתרגיל הבא אם משהו לא נוח.</li>
+
+            <li>כפתור <strong>“איפוס אימון”</strong> – יחזיר אותך להתחלה לבחירת יום אימון.</li>
+
+            <li>שורת ההתקדמות מראה כמה אחוזים מהאימון כבר סיימת.</li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="sub-card">
+
+          <h3>איך לשמור ולהריץ</h3>
+
+          <ol class="small">
+
+            <li>פתח Notepad / VS Code במחשב.</li>
+
+            <li>העתק את כל התוכן של הדף שקיבלת (מ־<code>&lt;!DOCTYPE html&gt;</code> עד הסוף).</li>
+
+            <li>שמור בשם <code>index.html</code> (סוג קובץ: All Files אם צריך).</li>
+
+            <li>לחץ פעמיים על הקובץ – הוא ייפתח בדפדפן בתור אפליקציה.</li>
+
+            <li>אפשר להעביר את הקובץ לטלפון ולהריץ דרך דפדפן נייד.</li>
+
+          </ol>
+
+          <p class="footer-note">
+
+            אם תרצה בעתיד – אפשר להעלות את הקובץ ל-Netlify / GitHub Pages ולקבל כתובת אונליין.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script>
+
+    // ------- נתוני האימונים לפי יום ------- //
+
+    const workouts = {
+
+      A: {
+
+        name: "יום A – חזה, כתפיים, טריצפס",
+
+        focus: "חזה, כתפיים, טריצפס",
+
+        exercises: [
+
+          {
+
+            name: "לחיצת משקולות שטוחה (על מזרן)",
+
+            sets: 4,
+
+            reps: "10–12",
+
+            restSec: 90,
+
+            desc: "שכב על המזרן, כפות רגליים על הרצפה, דחוף את המשקולות כלפי מעלה מעל החזה והורד בצורה מבוקרת.",
+
+          },
+
+          {
+
+            name: "פרפר עם משקולות (Flyes)",
+
+            sets: 3,
+
+            reps: "12–15",
+
+            restSec: 75,
+
+            desc: "שכב על המזרן, פתח ידיים לצדדים עם מרפקים מעט כפופים והחזר ביחד מעל החזה.",
+
+          },
+
+          {
+
+            name: "שכיבות שמיכה רחבות",
+
+            sets: 3,
+
+            reps: "עד 15",
+
+            restSec: 60,
+
+            desc: "ידיים רחבות מהכתפיים, הגוף בקו ישר, ירידה איטית ודחיפה למעלה.",
+
+          },
+
+          {
+
+            name: "לחיצת כתפיים בישיבה",
+
+            sets: 4,
+
+            reps: "10–12",
+
+            restSec: 90,
+
+            desc: "שב זקוף על הכסא, החזק משקולות בגובה כתפיים ודחוף מעל הראש.",
+
+          },
+
+          {
+
+            name: "הרמות לצדדים (כתפיים צדיות)",
+
+            sets: 3,
+
+            reps: "12–15",
+
+            restSec: 60,
+
+            desc: "עמוד זקוף, הרם משקולות לצדדים עד לגובה כתפיים, הורד לאט.",
+
+          },
+
+          {
+
+            name: "הרמות קדמיות",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 60,
+
+            desc: "הרם משקולת לפנים עד לגובה כתף, אפשר לסירוגין בין ידיים.",
+
+          },
+
+          {
+
+            name: "טריצפס מעל הראש",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 75,
+
+            desc: "שב או עמוד, החזק משקולת אחת מעל הראש, הורד מאחורי הראש והעלה חזרה.",
+
+          },
+
+          {
+
+            name: "Tricep Kickback",
+
+            sets: 3,
+
+            reps: "12–15",
+
+            restSec: 60,
+
+            desc: "הישען קדימה, מרפק צמוד לגוף, ישר את היד לאחור עד הסוף.",
+
+          },
+
+        ]
+
+      },
+
+      B: {
+
+        name: "יום B – גב, ביצפס, בטן",
+
+        focus: "גב, ביצפס, בטן",
+
+        exercises: [
+
+          {
+
+            name: "כפיפת ביצפס",
+
+            sets: 4,
+
+            reps: "10–12",
+
+            restSec: 75,
+
+            desc: "עמוד זקוף, כפות ידיים קדימה, כופף מרפקים והעלה המשקולות לכיוון הכתפיים.",
+
+          },
+
+          {
+
+            name: "פטיש (Hammer Curl)",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 60,
+
+            desc: "אחוז את המשקולות כאילו זה פטיש, כופף מרפקים ושמור על הגוף יציב.",
+
+          },
+
+          {
+
+            name: "כפיפת ריכוז",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 60,
+
+            desc: "שב, הנח מרפק על פנים הירך, כופף לאט והעלה משקל לכיוון הכתף.",
+
+          },
+
+          {
+
+            name: "חתירה כפופה (Bent-Over Row)",
+
+            sets: 4,
+
+            reps: "10–12",
+
+            restSec: 90,
+
+            desc: "כופף מעט ברכיים, גב כמעט מקביל לרצפה, משוך משקולות לכיוון הבטן.",
+
+          },
+
+          {
+
+            name: "חתירה חד-צדדית על הכסא",
+
+            sets: 3,
+
+            reps: "12 לכל צד",
+
+            restSec: 75,
+
+            desc: "הישען עם יד ורגל על הכסא, ביד החופשית משוך משקולת לכיוון המותן.",
+
+          },
+
+          {
+
+            name: "פלאנק",
+
+            sets: 3,
+
+            reps: "45–60 שניות",
+
+            restSec: 45,
+
+            desc: "הישען על אמות ורגליים, גוף בקו ישר, החזק בזמן.",
+
+          },
+
+          {
+
+            name: "קראנץ׳ בטן",
+
+            sets: 3,
+
+            reps: "20",
+
+            restSec: 45,
+
+            desc: "שכב על הגב, כופף ברכיים, הרם כתפיים קלות מהרצפה ללא משיכת הצוואר.",
+
+          },
+
+          {
+
+            name: "הרמת רגליים",
+
+            sets: 3,
+
+            reps: "15",
+
+            restSec: 45,
+
+            desc: "שכב על הגב, הרם רגליים ישרות למעלה והורד לאט, גב צמוד למזרן.",
+
+          },
+
+          {
+
+            name: "סיבובי רוסי",
+
+            sets: 3,
+
+            reps: "20 (סך הכל)",
+
+            restSec: 45,
+
+            desc: "שב, הטה מעט אחורה, סובב את הגוף מצד לצד, אפשר עם משקולת לקושי.",
+
+          },
+
+        ]
+
+      },
+
+      C: {
+
+        name: "יום C – כל הגוף + בטן",
+
+        focus: "כל הגוף, דגש רגליים ובטן",
+
+        exercises: [
+
+          {
+
+            name: "סקוואט גביע (Goblet Squat)",
+
+            sets: 3,
+
+            reps: "15",
+
+            restSec: 75,
+
+            desc: "החזק משקולת אחת בגובה החזה, כופף ברכיים וירד לסקוואט, עלה בחזרה.",
+
+          },
+
+          {
+
+            name: "Romanian Deadlift",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 90,
+
+            desc: "עם משקולות בידיים, שמור גב ישר, הורד לאורך הרגליים עד שתרגיש מתיחה בהמסטרינג וחזור.",
+
+          },
+
+          {
+
+            name: "לחיצת חזה שטוחה",
+
+            sets: 3,
+
+            reps: "10",
+
+            restSec: 75,
+
+            desc: "בדומה ליום A, אך כאן כחלק מאימון כללי – שמור על טווח תנועה איכותי.",
+
+          },
+
+          {
+
+            name: "לחיצת כתפיים בישיבה",
+
+            sets: 3,
+
+            reps: "10",
+
+            restSec: 75,
+
+            desc: "כמו יום A, משקל מעט קל יותר אם צריך בגלל העומס המצטבר.",
+
+          },
+
+          {
+
+            name: "כפיפת ביצפס",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 60,
+
+            desc: "חזרה על תרגיל ביצפס להשלמת העבודה על הידיים.",
+
+          },
+
+          {
+
+            name: "הרחבת טריצפס",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 60,
+
+            desc: "אפשר מעל הראש או ב-Kickback – בחר מה שנוח לך.",
+
+          },
+
+          {
+
+            name: "הרמות צד לכתפיים",
+
+            sets: 3,
+
+            reps: "12",
+
+            restSec: 60,
+
+            desc: "לתת עוד גירוי לכתפיים הצדיות, משקל בינוני.",
+
+          },
+
+          {
+
+            name: "פלאנק",
+
+            sets: 2,
+
+            reps: "60 שניות",
+
+            restSec: 45,
+
+            desc: "החזק גוף ישר, בטן אסופה.",
+
+          },
+
+          {
+
+            name: "Mountain Climbers",
+
+            sets: 3,
+
+            reps: "20 (לכל צד 10)",
+
+            restSec: 45,
+
+            desc: "עמידת כפיפה, משיכה מהירה של ברכיים לכיוון החזה לסירוגין.",
+
+          },
+
+        ]
+
+      }
+
+    };
+
+
+    // מצב אימון
+
+    let currentDay = null;
+
+    let currentExerciseIndex = 0;
+
+    let currentSet = 0;
+
+    let timerInterval = null;
+
+    let timerMode = "idle"; // "idle", "work", "rest"
+
+    let timerRemaining = 0;
+
+
+    const exercisePanel = document.getElementById("exercise-panel");
+
+    const exerciseActive = document.getElementById("exercise-active");
+
+    const noWorkoutMessage = document.getElementById("no-workout-message");
+
+
+    const exerciseNameEl = document.getElementById("exercise-name");
+
+    const exerciseMetaEl = document.getElementById("exercise-meta");
+
+    const exerciseDescEl = document.getElementById("exercise-desc");
+
+    const badgeSetsEl = document.getElementById("badge-sets");
+
+    const badgeRepsEl = document.getElementById("badge-reps");
+
+    const badgeRestEl = document.getElementById("badge-rest");
+
+
+    const progressBarEl = document.getElementById("progress-bar");
+
+    const progressTextEl = document.getElementById("progress-text");
+
+
+    const timerDisplayEl = document.getElementById("timer-display");
+
+    const timerLabelEl = document.getElementById("timer-label");
+
+
+    const btnStartSet = document.getElementById("btn-start-set");
+
+    const btnFinishSet = document.getElementById("btn-finish-set");
+
+    const btnSkipExercise = document.getElementById("btn-skip-exercise");
+
+    const btnResetWorkout = document.getElementById("btn-reset-workout");
+
+
+    const planTitleEl = document.getElementById("plan-title");
+
+    const planSubtitleEl = document.getElementById("plan-subtitle");
+
+    const planTableEl = document.getElementById("plan-table");
+
+    const planBodyEl = document.getElementById("plan-body");
+
+
+    function startWorkout(dayKey) {
+
+      currentDay = dayKey;
+
+      currentExerciseIndex = 0;
+
+      currentSet = 0;
+
+      timerMode = "idle";
+
+      clearTimer();
+
+
+      const day = workouts[dayKey];
+
+      noWorkoutMessage.style.display = "none";
+
+      exerciseActive.style.display = "block";
+
+
+      // עדכון טבלת התרגילים
+
+      planTitleEl.textContent = day.name;
+
+      planSubtitleEl.textContent = "רשימת התרגילים המלאה לאימון זה:";
+
+      planTableEl.style.display = "table";
+
+      planBodyEl.innerHTML = "";
+
+      day.exercises.forEach(ex => {
+
+        const tr = document.createElement("tr");
+
+        tr.innerHTML = `
+
+          <td>${ex.name}</td>
+
+          <td>${ex.sets}</td>
+
+          <td>${ex.reps}</td>
+
+          <td>${ex.restSec} שניות</td>
+
+        `;
+
+        planBodyEl.appendChild(tr);
+
+      });
+
+
+      // תרגיל ראשון
+
+      loadCurrentExercise();
+
+      updateProgress();
+
+    }
+
+
+    function loadCurrentExercise() {
+
+      const day = workouts[currentDay];
+
+      const ex = day.exercises[currentExerciseIndex];
+
+
+      currentSet = 0;
+
+      timerMode = "idle";
+
+      clearTimer();
+
+      timerDisplayEl.textContent = "00:00";
+
+      timerLabelEl.textContent = "מוכן לסט הבא";
+
+
+      exerciseNameEl.textContent = ex.name;
+
+      exerciseMetaEl.textContent = `${day.name} • תרגיל ${currentExerciseIndex + 1} מתוך ${day.exercises.length}`;
+
+      exerciseDescEl.textContent = ex.desc;
+
+
+      badgeSetsEl.textContent = `סטים: ${ex.sets}`;
+
+      badgeRepsEl.textContent = `חזרות: ${ex.reps}`;
+
+      badgeRestEl.textContent = `מנוחה בין סטים: ${ex.restSec} שניות`;
+
+
+      btnStartSet.disabled = false;
+
+      btnFinishSet.disabled = true;
+
+
+      updateProgress();
+
+    }
+
+
+    function countTotalSets(dayKey) {
+
+      const exs = workouts[dayKey].exercises;
+
+      return exs.reduce((sum, e) => sum + e.sets, 0);
+
+    }
+
+
+    function updateProgress() {
+
+      if (!currentDay) {
+
+        progressBarEl.style.width = "0%";
+
+        progressTextEl.textContent = "";
+
+        return;
+
+      }
+
+      const day = workouts[currentDay];
+
+      const totalSets = countTotalSets(currentDay);
+
+      let completedSets = 0;
+
+
+      for (let i = 0; i < day.exercises.length; i++) {
+
+        const ex = day.exercises[i];
+
+        if (i < currentExerciseIndex) {
+
+          completedSets += ex.sets;
+
+        } else if (i === currentExerciseIndex) {
+
+          completedSets += currentSet;
+
+        }
+
+      }
+
+
+      const percent = Math.round((completedSets / totalSets) * 100);
+
+      progressBarEl.style.width = percent + "%";
+
+      progressTextEl.textContent = `השלמת בערך ${percent}% מהאימון (סט ${currentSet} בתרגיל ${currentExerciseIndex + 1}).`;
+
+    }
+
+
+    function startSet() {
+
+      if (!currentDay) return;
+
+      const ex = workouts[currentDay].exercises[currentExerciseIndex];
+
+      timerMode = "work";
+
+      timerRemaining = 0; // אפשר להציג זמן עולה, אבל נשאיר 00:00 – אתה עובד בקצב שלך
+
+      timerLabelEl.textContent = "סט בעבודה – בצע את החזרות לפי התחושה שלך.";
+
+      timerDisplayEl.textContent = "▶️";
+
+      btnStartSet.disabled = true;
+
+      btnFinishSet.disabled = false;
+
+    }
+
+
+    function finishSet() {
+
+      if (!currentDay) return;
+
+      const ex = workouts[currentDay].exercises[currentExerciseIndex];
+
+
+      currentSet += 1;
+
+      updateProgress();
+
+
+      if (currentSet >= ex.sets) {
+
+        // כל הסטים לתרגיל זה הושלמו
+
+        goToNextExercise();
+
+      } else {
+
+        // מנוחה בין סטים
+
+        startRest(ex.restSec);
+
+      }
+
+    }
+
+
+    function startRest(seconds) {
+
+      timerMode = "rest";
+
+      timerRemaining = seconds;
+
+      timerLabelEl.textContent = "מנוחה בין סטים – נצל את הזמן לשתות מים.";
+
+      updateTimerDisplay();
+
+      clearTimer();
+
+      timerInterval = setInterval(() => {
+
+        timerRemaining -= 1;
+
+        if (timerRemaining <= 0) {
+
+          clearTimer();
+
+          timerMode = "idle";
+
+          timerLabelEl.textContent = "המנוחה הסתיימה – מוכן לסט הבא.";
+
+          timerDisplayEl.textContent = "00:00";
+
+          btnStartSet.disabled = false;
+
+          btnFinishSet.disabled = true;
+
+        } else {
+
+          updateTimerDisplay();
+
+        }
+
+      }, 1000);
+
+
+      btnStartSet.disabled = true;
+
+      btnFinishSet.disabled = true;
+
+    }
+
+
+    function updateTimerDisplay() {
+
+      const min = String(Math.floor(timerRemaining / 60)).padStart(2, "0");
+
+      const sec = String(timerRemaining % 60).padStart(2, "0");
+
+      timerDisplayEl.textContent = `${min}:${sec}`;
+
+    }
+
+
+    function clearTimer() {
+
+      if (timerInterval) {
+
+        clearInterval(timerInterval);
+
+        timerInterval = null;
+
+      }
+
+    }
+
+
+    function goToNextExercise() {
+
+      const day = workouts[currentDay];
+
+      currentExerciseIndex += 1;
+
+      if (currentExerciseIndex >= day.exercises.length) {
+
+        // אימון הסתיים
+
+        clearTimer();
+
+        timerMode = "idle";
+
+        timerDisplayEl.textContent = "✔️";
+
+        timerLabelEl.textContent = "כל הכבוד! סיימת את כל האימון להיום.";
+
+        btnStartSet.disabled = true;
+
+        btnFinishSet.disabled = true;
+
+        btnSkipExercise.disabled = true;
+
+        updateProgress();
+
+      } else {
+
+        loadCurrentExercise();
+
+      }
+
+    }
+
+
+    function skipExercise() {
+
+      if (!currentDay) return;
+
+      const day = workouts[currentDay];
+
+      currentExerciseIndex += 1;
+
+      if (currentExerciseIndex >= day.exercises.length) {
+
+        // אין עוד תרגילים
+
+        goToNextExercise();
+
+      } else {
+
+        loadCurrentExercise();
+
+      }
+
+    }
+
+
+    function resetWorkout() {
+
+      clearTimer();
+
+      currentDay = null;
+
+      currentExerciseIndex = 0;
+
+      currentSet = 0;
+
+      timerMode = "idle";
+
+      timerDisplayEl.textContent = "00:00";
+
+      timerLabelEl.textContent = "מוכן לסט הבא";
+
+
+      exerciseActive.style.display = "none";
+
+      noWorkoutMessage.style.display = "block";
+
+
+      planTitleEl.textContent = "תוכנית היום";
+
+      planSubtitleEl.textContent = "בחר יום אימון כדי לראות את רשימת התרגילים המלאה.";
+
+      planTableEl.style.display = "none";
+
+      planBodyEl.innerHTML = "";
+
+
+      progressBarEl.style.width = "0%";
+
+      progressTextEl.textContent = "";
+
+      btnSkipExercise.disabled = false;
+
+    }
+
+
+    // ------- TAB SWITCHING ------- //
+
+    const tabButtons = document.querySelectorAll(".tab-btn");
+
+    const tabContents = {
+
+      workout: document.getElementById("tab-workout"),
+
+      nutrition: document.getElementById("tab-nutrition"),
+
+      about: document.getElementById("tab-about"),
+
+    };
+
+
+    tabButtons.forEach(btn => {
+
+      btn.addEventListener("click", () => {
+
+        const tab = btn.getAttribute("data-tab");
+
+        tabButtons.forEach(b => b.classList.remove("active"));
+
+        btn.classList.add("active");
+
+        Object.keys(tabContents).forEach(key => {
+
+          tabContents[key].style.display = key === tab ? "block" : "none";
+
+        });
+
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
+
